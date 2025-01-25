@@ -68,8 +68,8 @@
       "type": "featured-collection",
       "settings": {
         "title": "<strong>Nuestros Productos </strong>",
-        "heading_size": "h2",
-        "description": "<h3>Consume hongos de la manera que más te guste, con los diferentes formatos que Mykósfera te ofrece.</h3>",
+        "heading_size": "h1",
+        "description": "<h3><strong>Consume hongos de la manera que más te guste, con los diferentes formatos que Mykósfera te ofrece.</strong></h3>",
         "show_description": false,
         "description_style": "body",
         "collection": "capsulas",
@@ -97,7 +97,7 @@
       "settings": {
         "title": "<strong>Tu Match Perfecto</strong>",
         "heading_size": "h1",
-        "description": "",
+        "description": "<h3><strong>Escoge variedad entre especies y productos con estos packs pensados exclusivamente para ti. Tu experiencia será completa.</strong></h3>",
         "show_description": false,
         "description_style": "body",
         "collection": "capsulas",
