@@ -134,7 +134,7 @@
           "type": "text",
           "settings": {
             "text": "Somos una familia de fungicultores dedicados al cultivo de de hongos alimenticios y medicinales con el propósito de acercar sus beneficios a la salud de personas y animales.",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         }
       },
