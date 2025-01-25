@@ -119,11 +119,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_LPkJAq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_rbJCnc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sobre Nosotros",
+            "heading_size": "h0"
+          }
+        },
+        "text_j7c6Kt": {
+          "type": "text",
+          "settings": {
+            "text": "Somos una familia de fungicultores dedicados al cultivo de de hongos alimenticios y medicinales con el propósito de acercar sus beneficios a la salud de personas y animales.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rbJCnc",
+        "text_j7c6Kt"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Banner2_PomponesMelena_Repisas2-scaled.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "image_behavior": "fixed",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "slideshow_xjRHkE",
     "featured_collection",
-    "featured_collection_h8AyiW"
+    "featured_collection_h8AyiW",
+    "image_banner_LPkJAq"
   ]
 }
