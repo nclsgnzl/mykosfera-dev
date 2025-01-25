@@ -143,7 +143,6 @@
         "text_j7c6Kt"
       ],
       "settings": {
-        "image": "shopify://shop_images/Banner2_PomponesMelena_Repisas2-scaled_ca795f9b-50de-41bc-801b-d6dab9eecdfc.jpg",
         "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -161,7 +160,7 @@
       "settings": {
         "heading": "<strong>Entérate sobre nuestras acciones</strong>",
         "heading_size": "h1",
-        "blog": "noticias",
+        "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
