@@ -156,6 +156,23 @@
         "show_text_below": true
       }
     },
+    "featured_blog_jhJe8X": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "<strong>Entérate sobre nuestras acciones</strong>",
+        "heading_size": "h1",
+        "blog": "blog",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collapsible_content_BaPTEx": {
       "type": "collapsible-content",
       "blocks": {
@@ -213,6 +230,7 @@
     "featured_collection",
     "featured_collection_h8AyiW",
     "image_banner_LPkJAq",
+    "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx"
   ]
 }
