@@ -179,27 +179,27 @@
         "collapsible_row_dX7zEr": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Pregunta 1",
+            "heading": "¿Cuáles son los medios de pago?",
             "icon": "question_mark",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ullamcorper mauris, vel gravida nisl. Morbi pulvinar pretium auctor. Aliquam accumsan id nunc vitae molestie. Nam efficitur, sapien eu aliquam varius, orci ipsum suscipit tellus</p>",
+            "row_content": "<p><strong>Tarjetas de crédito y débito:</strong> Aceptamos las principales tarjetas de crédito y débito, como Visa, Mastercard y American Express</p>",
             "page": ""
           }
         },
         "collapsible_row_rAyH8M": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Pregunta 2",
+            "heading": "¿A qué regiones de Chile realizan envíos?",
             "icon": "question_mark",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ullamcorper mauris, vel gravida nisl. Morbi pulvinar pretium auctor. Aliquam accumsan id nunc vitae molestie. Nam efficitur, sapien eu aliquam varius, orci ipsum suscipit tellus</p>",
+            "row_content": "<p>Realizamos envíos a <strong>todo el territorio chileno</strong>, desde Arica a Punta Arenas. Queremos que todos los chilenos tengan acceso a los beneficios de los hongos adaptógenos y comestibles, sin importar su ubicación.</p><p>Trabajamos con <strong>empresas de mensajería confiables</strong> que nos permiten llegar a cada rincón del país. Al momento de realizar tu compra, podrás seleccionar la región de destino y se calculará el costo de envío correspondiente.</p>",
             "page": ""
           }
         },
         "collapsible_row_xHtkCL": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Pregunta 3",
+            "heading": "¿Cuál es su política de devoluciones y reembolsos?",
             "icon": "question_mark",
-            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis ullamcorper mauris, vel gravida nisl. Morbi pulvinar pretium auctor. Aliquam accumsan id nunc vitae molestie. Nam efficitur, sapien eu aliquam varius, orci ipsum suscipit tellus</p>",
+            "row_content": "<p>Si por alguna razón no estás satisfecho con tu compra, puedes solicitar un cambio o devolución dentro de los 10 días siguientes a la recepción del producto. Para ello, es necesario que el producto se encuentre en perfectas condiciones, sin haber sido utilizado y con su empaque original.</p>",
             "page": ""
           }
         }
