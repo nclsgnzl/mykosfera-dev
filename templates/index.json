@@ -144,7 +144,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Imagen-Fondo-franja-Proyecto-Mykosfera.jpg",
-        "image_overlay_opacity": 20,
+        "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
