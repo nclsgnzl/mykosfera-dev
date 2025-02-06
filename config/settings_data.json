@@ -127,14 +127,17 @@
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
+        "custom_css": [
+          ".password-header {display: flex; align-items: center;}"
+        ],
         "settings": {
-          "color_scheme": "scheme-1"
+          "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef"
         }
       },
       "main-password-footer": {
         "type": "main-password-footer",
         "settings": {
-          "color_scheme": "scheme-1"
+          "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef"
         }
       }
     },
