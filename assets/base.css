@@ -3618,3 +3618,29 @@ details-disclosure>details {
 * {
   font-family: BlissPro !important;
 }
+
+/* BOTÓN WHATSAPP */
+
+.wsp-icon {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 50px;
+  right: 50px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 36px;
+  z-index: 100;
+  padding-top: 11px;
+  padding-right: 48px;
+}
+
+.wsp-icon svg {
+  position: relative;
+  left: 14px;
+  bottom: 5px;
+  width: 37px;
+  fill: rgb(255, 255, 255);
+}
