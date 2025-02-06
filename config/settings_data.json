@@ -9,9 +9,9 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/image-1.png",
+    "logo": "shopify://shop_images/LOGOS_MYKOSEFRA-08.png",
     "logo_width": 90,
-    "favicon": "shopify://shop_images/image-1.png",
+    "favicon": "shopify://shop_images/LOGOS_MYKOSEFRA-09.png",
     "type_header_font": "madera_n4",
     "heading_scale": 105,
     "type_body_font": "madera_n4",
@@ -20,6 +20,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_reveal_on_scroll": true,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -105,8 +106,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https://www.facebook.com/people/Mykósfera/100093618100103/",
+    "social_instagram_link": "https://www.instagram.com/mykosfera/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
