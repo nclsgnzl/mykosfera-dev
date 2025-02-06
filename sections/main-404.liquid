@@ -10,7 +10,7 @@
   }
 </style>
 
-<div class="template-404 page-width page-margin center">
+<div class="template-404 page-width page-margin center" id="section-main">
   <p>
     {{ 'templates.404.subtext' | t }}
   </p>
@@ -21,3 +21,20 @@
     {{ 'general.continue_shopping' | t }}
   </a>
 </div>
+
+<div class="template-404 page-width page-margin center" style="display: none;" id="section-main-redirection">
+  <h1 class="title">Cargando...</h1>
+</div>
+
+<script>
+  //*** REDIRECCION INTEGRACION QR ***
+  if (location.pathname == '/qr/ficha_melenaleon/') {
+    document.getElementById('section-main').style.display = 'none';
+    document.getElementById('section-main-redirection').style.display = 'block';
+    location.href = "https://mykosfera.cl/fichas_hongos/Ficha_info_MelenaLeon_Mykosfera.pdf'";
+  } else if (location.href == window.location.host + '/qr/ficha_colapavo/') {
+    document.getElementById('section-main').style.display = 'none';
+    document.getElementById('section-main-redirection').style.display = 'block';
+    location.href = 'https://mykosfera.cl/fichas_hongos/Ficha_info_ColaPavo_Mykosfera.pdf';
+  }
+</script>

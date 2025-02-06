@@ -255,6 +255,21 @@
       }
     {% endstyle %}
 
+    <style>
+      @media screen and (min-width: 768px) {
+        .header {
+          align-items: center;
+          display: flex !important;
+          /*
+          flex-flow: row-reverse;
+          */
+          justify-content: space-between;
+          margin: 0 !important;
+          max-width: 100% !important;
+        }
+      }
+    </style>
+
     {{ 'base.css' | asset_url | stylesheet_tag }}
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
