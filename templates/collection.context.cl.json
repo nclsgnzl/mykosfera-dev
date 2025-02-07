@@ -12,5 +12,12 @@
   "context": {
     "market": "cl"
   },
-  "sections": {}
+  "sections": {
+    "banner": {
+      "settings": {
+        "show_collection_image": false
+      },
+      "blocks": {}
+    }
+  }
 }
