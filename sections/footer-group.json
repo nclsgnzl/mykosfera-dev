@@ -35,12 +35,20 @@
             "heading": "Enlaces útiles",
             "menu": "customer-account-main-menu"
           }
+        },
+        "image_DJFDY3": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
         "image_hhTDBc",
         "footer-0",
-        "footer-1"
+        "footer-1",
+        "image_DJFDY3"
       ],
       "settings": {
         "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
