@@ -15,9 +15,54 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_EgLQcB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_BarUKf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Equipo-1948x2048_ccd2ee22-d3d9-4e79-826b-42769900e2ce.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3jdwM4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<h2>MYKÓSFERA</h2><p>Somos un emprendimiento familiar de fungicultores. Trabajamos y cultivamos hongos alimenticios y medicinales, para acercar y disponibilizar su potencial de salud a personas y animales. Nos impulsa y motiva el desarrollo de nuevos formatos e innovación que apoyen el proceso de cultivo y post cosecha. Nuestros pilares fundamentales se sustentan en la circularidad y regeneración, lo que nos proporciona las metodologías de mitigación de impacto ambiental en nuestro proceso de cultivo. Todo lo anterior, lo estamos potenciando a través de nuestra planta de cultivo automatizada (construida íntegramente por nosotros). Nuestro compromiso es total hacia la entrega de productos de alta calidad nutricional y que favorezcan la salud de las personas y animales.</p><h2>VISIÓN</h2><p>Somos una organización que entiende al Reino Fungi como un actor primordial en los procesos ecológicos, y comprendiendo su relevancia en las dinámicas del planeta, nos hemos propuesto valorar, visibilizar y expandir su existencia a través de un trabajo coherente y reflexivo con sus funciones ambientales. En base a esto, nos proyectamos como una organización colaborativa que busca establecer, por medio del Reino Fungi, un vínculo de conexión consciente entre la nutrición y la salud de las personas, inspirándonos en la profunda red que une a los hongos con el resto de los seres vivos</p><h2>MISIÓN</h2><p>Trabajamos de forma responsable y consecuente el cultivo de alimentos, suplementos y derivados medicinales provenientes del Reino Fungi, de manera que toda persona pueda acceder a un alimento con propiedades nutricionales que complemente una alimentación sana, consiente y a un precio justo. Como tarea, nos proponemos además ser un aporte en el campo de la investigación, contemplando como pilares fundamentales de nuestro proceso productivo la innovación y el resguardo del medio ambiente, a través de la aplicación de metodologías regenerativas y economía circular.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_BarUKf",
+        "column_3jdwM4"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_EgLQcB"
   ]
 }
