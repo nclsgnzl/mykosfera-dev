@@ -159,7 +159,7 @@
     "featured_blog_jhJe8X": {
       "type": "featured-blog",
       "settings": {
-        "heading": "<strong>Entérate sobre nuestras acciones</strong>",
+        "heading": "<strong>Entérate sobre nuestras acciones y publicaciones</strong>",
         "heading_size": "h1",
         "blog": "news",
         "post_limit": 3,
