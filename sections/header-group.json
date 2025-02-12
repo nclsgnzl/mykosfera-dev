@@ -24,7 +24,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Bienvenidos a nuestra tienda",
+            "text": "¡Bienvenidos a nuestra tienda!",
             "link": ""
           }
         }
