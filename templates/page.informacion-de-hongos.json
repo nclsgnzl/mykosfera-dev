@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [],
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -22,9 +23,9 @@
         "collapsible_row_tKXXKJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Beneficios",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<ul><li>Mejora la función cognitiva: Los compuestos bioactivos de la Melena de León pueden estimular la producción del Factor de Crecimiento Nervioso (NGF), lo que puede mejorar la función cognitiva y la memoria.</li><li>Reduce la inflamación: La Melena de León contiene compuestos con propiedades antiinflamatorias, que pueden ayudar a reducir la inflamación y el dolor en el cuerpo.</li><li>Fortalece el sistema inmunológico: Los polisacáridos presentes en la Melena de León pueden estimular el sistema inmunológico, lo que puede ayudar a combatir infecciones y enfermedades.</li><li>Mejora la salud digestiva: Los compuestos bioactivos presentes en la Melena de León pueden mejorar la digestión y la absorción de nutrientes en el cuerpo.</li><li>Potencial antitumoral: La Melena de León contiene compuestos que pueden tener propiedades antitumorales y pueden ser útiles como complemento en el tratamiento del cáncer, aunque se necesitan más estudios al respecto.</li></ul>",
             "page": ""
           }
         },
@@ -100,7 +101,7 @@
         "layout": "none",
         "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
         "container_color_scheme": "",
-        "open_first_collapsible_row": false,
+        "open_first_collapsible_row": true,
         "image": "shopify://shop_images/Melena-de-Leon-300x225_6cb09cb9-dc32-4b19-a118-a5534e7d9195.jpg",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
