@@ -133,8 +133,8 @@
         "text_j7c6Kt": {
           "type": "text",
           "settings": {
-            "text": "Somos una familia de fungicultores dedicados al cultivo de de hongos alimenticios y medicinales con el propósito de acercar sus beneficios a la salud de personas y animales.",
-            "text_style": "body"
+            "text": "Somos un emprendimiento familiar de fungicultores. Trabajamos y cultivamos hongos alimenticios y medicinales, para acercar y disponibilizar su potencial de salud a personas y animales. Nos impulsa y motiva el desarrollo de nuevos formatos e innovación que apoyen el proceso de cultivo y post cosecha. Nuestros pilares fundamentales se sustentan en la circularidad y regeneración, lo que nos proporciona las metodologías de mitigación de impacto ambiental en nuestro proceso de cultivo. Todo lo anterior, lo estamos potenciando a través de nuestra planta de cultivo automatizada (construida íntegramente por nosotros). Nuestro compromiso es total hacia la entrega de productos de alta calidad nutricional y que favorezcan la salud de las personas y animales.",
+            "text_style": "subtitle"
           }
         }
       },
@@ -144,7 +144,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/Imagen-Fondo-franja-Proyecto-Mykosfera.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 50,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
