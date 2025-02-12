@@ -292,12 +292,84 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collapsible_content_8XPfHg": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_zKmGjw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_mtRQTr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_dJGQJg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Bndc6T": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_78hf7E": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_zKmGjw",
+        "collapsible_row_mtRQTr",
+        "collapsible_row_dJGQJg",
+        "collapsible_row_Bndc6T",
+        "collapsible_row_78hf7E"
+      ],
+      "settings": {
+        "caption": "(Ganoderma lucidum)",
+        "heading": "Reishi",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "collapsible_content_xttcKT",
     "collapsible_content_3Fewjm",
-    "collapsible_content_LqyekY"
+    "collapsible_content_LqyekY",
+    "collapsible_content_8XPfHg"
   ]
 }
