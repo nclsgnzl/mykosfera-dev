@@ -10,14 +10,28 @@
       <div class="swiper-slide">
         <article class="slide-content">
           <span>{{ block.settings.slide_text_1 }}</span>
-          <br>
-          <h2>{{ block.settings.slide_text_2 }}</h2>
-          <br>
+          <h2>
+            <b>{{ block.settings.slide_text_2 }}</b>
+          </h2>
           <span>{{ block.settings.slide_text_3 }}</span>
+          <br>
+          <br>
           <div style="display: flex">
-            <img src="{{ block.settings.slider_icon_first_image | image_url }}" alt="slide-image-1" style="width: 10%">
-            <img src="{{ block.settings.slider_icon_second_image | image_url }}" alt="slide-image-2" style="width: 10%">
-            <img src="{{ block.settings.slider_icon_third_image | image_url }}" alt="slide-image-3" style="width: 10%">
+            <img
+              src="{{ block.settings.slider_icon_first_image | image_url }}"
+              alt="slide-image-1"
+              style="width: 10%; margin-right: 10px;"
+            >
+            <img
+              src="{{ block.settings.slider_icon_second_image | image_url }}"
+              alt="slide-image-2"
+              style="width: 10%; margin-right: 10px;"
+            >
+            <img
+              src="{{ block.settings.slider_icon_third_image | image_url }}"
+              alt="slide-image-3"
+              style="width: 10%; margin-right: 10px;"
+            >
           </div>
         </article>
         <img src="{{ block.settings.slide_image | image_url }}" alt="slide-image">

@@ -11,6 +11,24 @@
     color: white;
 }
 
-.swiper .swiper-slide .slide-content h2 {
-    color: white;
+.slide-content {
+    margin-left: 30px;
+    margin-top: 50px;
+    padding: 10px 16px 10px 20px;
+    background: rgba(236, 232, 232, 0.9);
+}
+
+.slide-content span {
+    color: #79426a;
+    font-size: 20px;
+}
+
+.slide-content h2 {
+    color: #79426a;
+    margin: 1px 1px 1px 2px;
+    padding-left: 10px;
+    background: rgba(241, 155, 64, 0.8);
+    width: 40%;
+    font-size: 35px;
+    font-weight: 900;
 }
