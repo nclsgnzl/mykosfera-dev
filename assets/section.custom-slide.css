@@ -1,0 +1,16 @@
+.swiper .swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-slide {
+    position: relative;
+}
+
+.swiper .swiper-slide .slide-content {
+    position: absolute;
+    color: white;
+}
+
+.swiper .swiper-slide .slide-content h2 {
+    color: white;
+}

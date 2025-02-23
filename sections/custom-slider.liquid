@@ -1,0 +1,139 @@
+{{ 'section.custom-slide.css' | asset_url | stylesheet_tag }}
+
+<!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+
+    {% for block in section.blocks %}
+      <div class="swiper-slide">
+        <article class="slide-content">
+          <span>{{ block.settings.slide_text_1 }}</span>
+          <br>
+          <h2>{{ block.settings.slide_text_2 }}</h2>
+          <br>
+          <span>{{ block.settings.slide_text_3 }}</span>
+          <div style="display: flex">
+            <img src="{{ block.settings.slider_icon_first_image | image_url }}" alt="slide-image-1" style="width: 10%">
+            <img src="{{ block.settings.slider_icon_second_image | image_url }}" alt="slide-image-2" style="width: 10%">
+            <img src="{{ block.settings.slider_icon_third_image | image_url }}" alt="slide-image-3" style="width: 10%">
+          </div>
+        </article>
+        <img src="{{ block.settings.slide_image | image_url }}" alt="slide-image">
+      </div>
+    {% endfor %}
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    /*
+    direction: 'horizontal',
+    loop: true,
+    autoplay: {
+      enabled: false,
+      speed: 3000,
+    },
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+    */
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Custom Slider - Banner",
+  /*
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Texto Slider",
+      "default": "Texto"
+    }
+  ],
+  */
+  "blocks": [
+    {
+      "type": "slider",
+      "name": "Slider",
+      "settings": [
+        {
+          "type": "text",
+          "id": "slide_text_1",
+          "label": "Primer texto slider"
+        },
+        {
+          "type": "text",
+          "id": "slide_text_2",
+          "label": "Segundo texto slider"
+        },
+        {
+          "type": "text",
+          "id": "slide_text_3",
+          "label": "Tercer texto slider"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_image",
+          "label": "Selecciona tu imagen de fondo"
+        },
+        {
+          "type": "image_picker",
+          "id": "slider_icon_first_image",
+          "label": "Selecciona el primer icono"
+        },
+        {
+          "type": "image_picker",
+          "id": "slider_icon_second_image",
+          "label": "Selecciona el segundo icono"
+        },
+        {
+          "type": "image_picker",
+          "id": "slider_icon_third_image",
+          "label": "Selecciona el tercer icono"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

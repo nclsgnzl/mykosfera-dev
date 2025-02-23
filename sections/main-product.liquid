@@ -195,6 +195,8 @@
                 {%- if product.description != blank -%}
                   <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
                     {{ product.description }}
+
+                    <input type="hidden" value="{{ product.id }}" id="id_producto">
                   </div>
                 {%- endif -%}
               {%- when 'sku' -%}
@@ -235,6 +237,7 @@
                 >
                   {% comment %} TODO: enable theme-check once `item_count_for_variant` is accepted as valid filter {% endcomment %}
                   {% # theme-check-disable %}
+
                   {%- assign cart_qty = cart
                     | item_count_for_variant: product.selected_or_first_available_variant.id
                   -%}
@@ -723,6 +726,16 @@
     </script>
   </div>
 </product-info>
+
+<script>
+  //alert('PRODUCTO');
+  let id_producto = document.getElementById('id_producto').value;
+  alert(id_producto);
+
+  //DEPENDIENDO DE ID DE PRODUCTO OCULTAR BOTON Y MOSTRAR OTRO
+
+  //.product-form__submit
+</script>
 
 {% schema %}
 {

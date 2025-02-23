@@ -7,9 +7,9 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
-  "sections": {
-    "slideshow_xjRHkE": {
+
+/*
+"slideshow_xjRHkE": {
       "type": "slideshow",
       "blocks": {
         "slide_jikg7f": {
@@ -63,6 +63,13 @@
         "show_text_below": true,
         "accessibility_info": "Somos productores de hongos adaptógenos y comestibles"
       }
+    },
+*/
+
+{
+  "sections": {
+    "slider-banner":{
+      "type": "custom-slider"
     },
     "rich_text_m76mRC": {
       "type": "rich-text",
@@ -220,6 +227,7 @@
         "padding_bottom": 36
       }
     },
+    /*
     "image_banner_LPkJAq": {
       "type": "image-banner",
       "blocks": {
@@ -255,6 +263,10 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    */
+    "section-nosotros":{
+      "type": "custom-textarea-image"
     },
     "featured_blog_jhJe8X": {
       "type": "featured-blog",
@@ -326,13 +338,15 @@
     }
   },
   "order": [
-    "slideshow_xjRHkE",
+    //"slideshow_xjRHkE",
+    "slider-banner",
     "rich_text_m76mRC",
     "collection_list_3iwkw8",
     "featured_collection",
     "featured_collection_jpTQJa",
     "featured_collection_h8AyiW",
-    "image_banner_LPkJAq",
+    //"image_banner_LPkJAq",
+    "section-nosotros",
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx"
   ]

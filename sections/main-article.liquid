@@ -1,5 +1,15 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
+<style>
+  h1,
+  h2 {
+    color: #79426a;
+  }
+  .full-unstyled-link {
+    color: #79426a;
+  }
+</style>
+
 <article class="article-template">
   {%- for block in section.blocks -%}
     {%- case block.type -%}

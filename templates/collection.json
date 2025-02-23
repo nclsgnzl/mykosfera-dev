@@ -9,6 +9,7 @@
  */
 {
   "sections": {
+    /*
     "image_banner_9jWT8k": {
       "type": "image-banner",
       "blocks": {
@@ -36,6 +37,10 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    */
+    "custom-title-page": {
+      "type": "custom-title-page"
     },
     "banner": {
       "type": "main-collection-banner",
@@ -68,7 +73,8 @@
     }
   },
   "order": [
-    "image_banner_9jWT8k",
+    //"image_banner_9jWT8k",
+    "custom-title-page",
     "banner",
     "product-grid"
   ]
