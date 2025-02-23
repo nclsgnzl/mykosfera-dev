@@ -30,28 +30,6 @@
             "text_style": "subtitle"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {}
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": false
-          }
-        },
         "description": {
           "type": "description",
           "settings": {}
@@ -67,10 +45,6 @@
         "vendor",
         "title",
         "caption",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
         "description",
         "share"
       ],
