@@ -9,38 +9,9 @@
  */
 {
   "sections": {
-    /*
-    "image_banner_9jWT8k": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_9wH7Ak": {
-          "type": "heading",
-          "settings": {
-            "heading": "Tienda",
-            "heading_size": "hxl"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9wH7Ak"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Imagen-Fondo-franja-Proyecto-Mykosfera.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-e7e7aef6-fdcc-408b-965d-ee6aea161d00",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    */
     "custom-title-page": {
-      "type": "custom-title-page"
+      "type": "custom-title-page",
+      "settings": {}
     },
     "banner": {
       "type": "main-collection-banner",
@@ -73,7 +44,6 @@
     }
   },
   "order": [
-    //"image_banner_9jWT8k",
     "custom-title-page",
     "banner",
     "product-grid"

@@ -7,69 +7,28 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-
-/*
-"slideshow_xjRHkE": {
-      "type": "slideshow",
+{
+  "sections": {
+    "slider-banner": {
+      "type": "custom-slider",
       "blocks": {
-        "slide_jikg7f": {
-          "type": "slide",
+        "slider_UtDn3d": {
+          "type": "slider",
           "settings": {
-            "image": "shopify://shop_images/cola-de-pavo-700x540-1_826d181f-de06-4344-8359-d15859a24042.jpg",
-            "heading": "Somos Productores de Hongos Adaptógenos y Comestibles",
-            "heading_size": "h1",
-            "subheading": "Desarrollamos subproductos para tu <strong>Salud y Bienestar</strong>.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 50,
-            "color_scheme": "scheme-4",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_imegP8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner2_PomponesMelena_Repisas2-scaled.jpg",
-            "heading": "Somos Productores de Hongos Adaptógenos y Comestibles",
-            "heading_size": "h1",
-            "subheading": "Desarrollamos subproductos para tu <strong>Salud y Bienestar</strong>.",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "scheme-4",
-            "text_alignment_mobile": "center"
+            "slide_text_1": "Somos productores de",
+            "slide_text_2": "Hongos Adaptógenos y Combustibles",
+            "slide_text_3": "Desarrollamos sub productos para tu bienestar",
+            "slide_image": "shopify://shop_images/DJI_0869_-_copia.jpg",
+            "slider_icon_first_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB_Mesa_de_trabajo_1.png",
+            "slider_icon_second_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-02.png",
+            "slider_icon_third_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-03.png"
           }
         }
       },
       "block_order": [
-        "slide_jikg7f",
-        "slide_imegP8"
+        "slider_UtDn3d"
       ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "small",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 7,
-        "image_behavior": "ambient",
-        "show_text_below": true,
-        "accessibility_info": "Somos productores de hongos adaptógenos y comestibles"
-      }
-    },
-*/
-
-{
-  "sections": {
-    "slider-banner":{
-      "type": "custom-slider"
+      "settings": {}
     },
     "rich_text_m76mRC": {
       "type": "rich-text",
@@ -227,46 +186,12 @@
         "padding_bottom": 36
       }
     },
-    /*
-    "image_banner_LPkJAq": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_rbJCnc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Sobre Nosotros",
-            "heading_size": "h0"
-          }
-        },
-        "text_j7c6Kt": {
-          "type": "text",
-          "settings": {
-            "text": "Somos un emprendimiento familiar de fungicultores. Trabajamos y cultivamos hongos alimenticios y medicinales, para acercar y disponibilizar su potencial de salud a personas y animales. Nos impulsa y motiva el desarrollo de nuevos formatos e innovación que apoyen el proceso de cultivo y post cosecha. Nuestros pilares fundamentales se sustentan en la circularidad y regeneración, lo que nos proporciona las metodologías de mitigación de impacto ambiental en nuestro proceso de cultivo. Todo lo anterior, lo estamos potenciando a través de nuestra planta de cultivo automatizada (construida íntegramente por nosotros). Nuestro compromiso es total hacia la entrega de productos de alta calidad nutricional y que favorezcan la salud de las personas y animales.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rbJCnc",
-        "text_j7c6Kt"
-      ],
+    "section-nosotros": {
+      "type": "custom-textarea-image",
       "settings": {
-        "image": "shopify://shop_images/Imagen-Fondo-franja-Proyecto-Mykosfera.jpg",
-        "image_overlay_opacity": 50,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-e7e7aef6-fdcc-408b-965d-ee6aea161d00",
-        "image_behavior": "fixed",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "title_page": "",
+        "description_paragraph": ""
       }
-    },
-    */
-    "section-nosotros":{
-      "type": "custom-textarea-image"
     },
     "featured_blog_jhJe8X": {
       "type": "featured-blog",
@@ -338,14 +263,12 @@
     }
   },
   "order": [
-    //"slideshow_xjRHkE",
     "slider-banner",
     "rich_text_m76mRC",
     "collection_list_3iwkw8",
     "featured_collection",
     "featured_collection_jpTQJa",
     "featured_collection_h8AyiW",
-    //"image_banner_LPkJAq",
     "section-nosotros",
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx"
