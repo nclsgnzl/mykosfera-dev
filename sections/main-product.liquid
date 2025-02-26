@@ -25,6 +25,38 @@
     {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
 
+  <style>
+    h1 {
+      color: #79426a;
+    }
+    .full-unstyled-link {
+      color: #79426a;
+      text-align: center;
+    }
+
+    .card-information .price {
+      text-align: center;
+    }
+
+    .blog-articles__article {
+      margin-top: 30px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+
+    .card--standard .card__content {
+      font-size: 15px;
+      background: #efefed;
+      box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+      padding: 10px;
+    }
+
+    .card__content p {
+      color: #79426a;
+    }
+  </style>
+
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
