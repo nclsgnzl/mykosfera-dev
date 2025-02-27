@@ -9,6 +9,12 @@
 .swiper .swiper-slide .slide-content {
     position: absolute;
     color: white;
+    width: 671px;
+}
+
+mark {
+    background-color: rgba(241, 155, 64, 0.8);
+    color: #79426a;
 }
 
 .slide-content {
@@ -20,14 +26,17 @@
 
 .slide-content span {
     color: #79426a;
-    font-size: 20px;
+    font-size: 29px;
+    font-weight: bold;
 }
 
 .slide-content h2 {
     color: #79426a;
     margin: 1px 1px 1px 2px;
     padding-left: 10px;
+    /*
     background: rgba(241, 155, 64, 0.8);
+    */
     width: 40%;
     font-size: 35px;
     font-weight: 900;
