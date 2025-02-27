@@ -42,7 +42,10 @@
             "slide_text_1": "Producción 100%",
             "slide_text_2": "REGIONAL",
             "slide_text_3": "De la tierra a la tierra, todos los residuos naturales vuelven a la tierra.",
-            "slide_image": "shopify://shop_images/Header_3.png"
+            "slide_image": "shopify://shop_images/Header_3.png",
+            "slider_icon_first_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-06.png",
+            "slider_icon_second_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-09.png",
+            "slider_icon_third_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-05.png"
           }
         }
       },
