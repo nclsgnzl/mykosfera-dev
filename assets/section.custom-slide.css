@@ -86,14 +86,14 @@ mark {
 
     .slide-content {
         margin-left: 8%;
-        margin-top: 10%;
+        margin-top: 8%;
         padding: 10px 16px 10px 20px;
         background: #ece8e8e6;
     }
 
     .slide-content span {
         color: #79426a;
-        font-size: 14px;
+        font-size: 10px;
         font-weight: 700;
     }
 
@@ -102,7 +102,7 @@ mark {
         margin: 1px 1px 1px 2px;
         padding-left: 10px;
         width: 40%;
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 900;
     }
 
