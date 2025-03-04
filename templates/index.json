@@ -14,6 +14,7 @@
       "blocks": {
         "slider_UtDn3d": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "slide_text_1": "Somos productores de",
             "slide_text_2": "Hongos Adaptógenos y Comestibles",
@@ -26,6 +27,7 @@
         },
         "slider_EXUnRQ": {
           "type": "slider",
+          "disabled": true,
           "settings": {
             "slide_text_1": "Somos una empresa",
             "slide_text_2": "Circular y Autosuficiente",
