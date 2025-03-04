@@ -28,7 +28,7 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "chat_bubble",
-            "heading_1": "<a href=\"https://wa.me/56952297952?text=Hola!,%20me%20gustar%C3%ADa%20saber%20sobre%20sus%20productos%20y%20valores\" target=\"_blank\" title=\"https://wa.me/56952297952?text=Hola!,%20me%20gustar%C3%ADa%20saber%20sobre%20sus%20productos%20y%20valores\">Cotizar</a>",
+            "heading_1": "<a href=\"https://wa.me/56952297952?text=Hola!,%20me%20gustar%C3%ADa%20saber%20sobre%20sus%20productos%20y%20valores\" target=\"_blank\" title=\"¡Pincha aquí para cotizar!\">Cotizar</a>",
             "icon_2": "none",
             "heading_2": "",
             "icon_3": "none",
