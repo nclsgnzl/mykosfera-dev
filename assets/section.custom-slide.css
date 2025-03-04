@@ -74,7 +74,7 @@ mark {
     }
 
     .icon-slider-items {
-        display: none;
+        display: none !important;
     }
 }
 
@@ -91,7 +91,22 @@ mark {
         background: #ece8e8e6;
     }
 
+    .slide-content span {
+        color: #79426a;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .slide-content h2 {
+        color: #79426a;
+        margin: 1px 1px 1px 2px;
+        padding-left: 10px;
+        width: 40%;
+        font-size: 18px;
+        font-weight: 900;
+    }
+
     .icon-slider-items {
-        display: none;
+        display: none !important;
     }
 }
