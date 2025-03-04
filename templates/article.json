@@ -35,6 +35,10 @@
         "title",
         "content"
       ],
+      "custom_css": [
+        "p{text-align: justify;}",
+        "ul li{text-align: justify;}"
+      ],
       "settings": {}
     }
   },
