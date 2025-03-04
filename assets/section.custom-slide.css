@@ -78,15 +78,15 @@ mark {
     }
 }
 
-@media (min-width: 320px) and (max-width: 450px) {
+@media (min-width: 300px) and (max-width: 450px) {
 
     .swiper .swiper-slide .slide-content {
         width: 80%;
     }
 
     .slide-content {
-        margin-left: 8%;
-        margin-top: 8%;
+        margin-left: 6%;
+        margin-top: 5%;
         padding: 10px 16px 10px 20px;
         background: #ece8e8e6;
     }
