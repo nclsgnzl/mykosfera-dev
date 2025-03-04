@@ -9,31 +9,41 @@
     {% for block in section.blocks %}
       <div class="swiper-slide">
         <article class="slide-content">
-          <span>{{ block.settings.slide_text_1 }}</span>
+          <span class="text-slider-first">{{ block.settings.slide_text_1 }}</span>
           <h2>
             <b>
               <mark>{{ block.settings.slide_text_2 }}</mark>
             </b>
           </h2>
-          <span>{{ block.settings.slide_text_3 }}</span>
+          <span class="text-slider-second">{{ block.settings.slide_text_3 }}</span>
           <br>
-          <br>
-          <div style="display: flex">
-            <img
-              src="{{ block.settings.slider_icon_first_image | image_url }}"
-              alt="slide-image-1"
-              style="width: 10%; margin-right: 10px;"
-            >
-            <img
-              src="{{ block.settings.slider_icon_second_image | image_url }}"
-              alt="slide-image-2"
-              style="width: 10%; margin-right: 10px;"
-            >
-            <img
-              src="{{ block.settings.slider_icon_third_image | image_url }}"
-              alt="slide-image-3"
-              style="width: 10%; margin-right: 10px;"
-            >
+          <div style="display: flex;" class="icon-slider-items">
+            <div class="item-icon" align="center">
+              <img
+                src="{{ block.settings.slider_icon_first_image | image_url }}"
+                style="width: 30%; margin-right: 10px;"
+
+              ><br>
+              <small>{{ block.settings.slide_icon_text_1 }}</small>
+            </div>
+            <div class="item-icon" align="center">
+              <img
+                src="{{ block.settings.slider_icon_second_image | image_url }}"
+                style="width: 30%; margin-right: 10px;"
+
+              ><br>
+              <small>{{ block.settings.slide_icon_text_2 }}</small>
+            </div>
+            <div class="item-icon" align="center">
+              <img
+                src="{{ block.settings.slider_icon_third_image | image_url }}"
+                style="width: 30%; margin-right: 10px;"
+              >
+              <br>
+              <small
+                ><small>{{ block.settings.slide_icon_text_3 }}</small></small
+              >
+            </div>
           </div>
         </article>
         <img src="{{ block.settings.slide_image | image_url }}" alt="slide-image">
@@ -139,14 +149,29 @@
           "label": "Selecciona el primer icono"
         },
         {
+          "type": "text",
+          "id": "slide_icon_text_1",
+          "label": "Primer texto icono slider"
+        },
+        {
           "type": "image_picker",
           "id": "slider_icon_second_image",
           "label": "Selecciona el segundo icono"
         },
         {
+          "type": "text",
+          "id": "slide_icon_text_2",
+          "label": "Segundo texto icono slider"
+        },
+        {
           "type": "image_picker",
           "id": "slider_icon_third_image",
           "label": "Selecciona el tercer icono"
+        },
+        {
+          "type": "text",
+          "id": "slide_icon_text_3",
+          "label": "Tercer texto icono slider"
         }
       ]
     }
