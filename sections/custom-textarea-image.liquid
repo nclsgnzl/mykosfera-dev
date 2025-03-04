@@ -22,12 +22,36 @@
     color: white;
     text-align: justify;
   }
+
+  @media (max-width: 1300px) {
+    .img-nosotros {
+      width: 10%;
+    }
+
+    .text-nosotros {
+      width: 50%;
+    }
+  }
+
+  @media (min-width: 300px) and (max-width: 989px) {
+    .img-nosotros {
+      width: 10%;
+    }
+
+    .text-nosotros {
+      width: 100%;
+    }
+  }
 </style>
 
 <div class="element" align="left">
-  <img src="{{ section.settings.title_icon_page | image_url }}" alt="icone-image" style="width: 5%">
+  <img
+    src="{{ section.settings.title_icon_page | image_url }}"
+    alt="icone-image"
+    class="img-nosotros"
+  >
   <h1 class="text-title">{{ section.settings.title_page }}</h1>
-  <div style="width: 50%">
+  <div class="text-nosotros">
     <p>{{ section.settings.description_paragraph }}</p>
   </div>
 
