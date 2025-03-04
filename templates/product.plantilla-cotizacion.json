@@ -26,8 +26,20 @@
         "caption": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}COTIZAR",
+            "text": "COTIZAR",
             "text_style": "subtitle"
+          }
+        },
+        "icon_with_text_LY6gPh": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading"
           }
         },
         "description": {
@@ -39,6 +51,7 @@
         "vendor",
         "title",
         "caption",
+        "icon_with_text_LY6gPh",
         "description"
       ],
       "settings": {
