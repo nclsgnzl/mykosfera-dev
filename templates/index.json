@@ -29,7 +29,6 @@
         },
         "slider_EXUnRQ": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "slide_text_1": "Somos una empresa",
             "slide_text_2": "Circular y Autosuficiente",
@@ -45,7 +44,6 @@
         },
         "slider_H3A8bp": {
           "type": "slider",
-          "disabled": true,
           "settings": {
             "slide_text_1": "Producción 100%",
             "slide_text_2": "REGIONAL",
