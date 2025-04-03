@@ -28,7 +28,6 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
-      "disabled": true,
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
@@ -37,52 +36,12 @@
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
         "quick_add": "none",
         "enable_filtering": true,
         "filter_type": "horizontal",
-        "enable_sorting": false,
+        "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "collection_list_CjRqPp": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_mBfByz": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "cafe"
-          }
-        },
-        "featured_collection_kmKCKV": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "capsulas"
-          }
-        },
-        "featured_collection_99tU9P": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "extractos"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_mBfByz",
-        "featured_collection_kmKCKV",
-        "featured_collection_99tU9P"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -91,7 +50,6 @@
   "order": [
     "custom-title-page",
     "banner",
-    "product-grid",
-    "collection_list_CjRqPp"
+    "product-grid"
   ]
 }
