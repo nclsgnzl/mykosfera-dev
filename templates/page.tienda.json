@@ -53,7 +53,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
+        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -164,7 +164,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
