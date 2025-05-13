@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "custom-title-page": {
+      "type": "custom-title-page",
+      "settings": {
+        "title_page": "Tienda",
+        "title_icon_page": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
+        "title_background_image": "shopify://shop_images/Venta.png"
+      }
+    },
+    "custom-title-store": {
+      "type": "custom-title-store",
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -22,6 +33,8 @@
     }
   },
   "order": [
-    "main"
+    "main",
+    "custom-title-page",
+    "custom-title-store"
   ]
 }

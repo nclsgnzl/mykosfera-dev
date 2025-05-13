@@ -1,0 +1,71 @@
+<style>
+  .icons-title {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+  .icons-title img {
+    width: 40px;
+    margin-right: 60px;
+  }
+  .category-title {
+    margin-left: 100px;
+  }
+  .category-title h2 {
+    font-size: 40px;
+    color: #79426a;
+  }
+  .category-description {
+    margin-left: 100px;
+  }
+  .category-description p {
+    font-size: 20px;
+    color: #79426a;
+  }
+</style>
+
+<div class="icons-title">
+  <img src="{{ section.settings.slider_icon_uno | image_url }}">
+  <img src="{{ section.settings.slider_icon_dos | image_url }}">
+  <img src="{{ section.settings.slider_icon_tres | image_url }}">
+</div>
+<div class="category-title">
+  <h2>
+    <b>{{ section.settings.title_page }}</b>
+  </h2>
+</div>
+<div class="category-description">
+  <p>{{ section.settings.description_category }}</p>
+</div>
+
+{% schema %}
+{
+  "name": "Icon Title Store",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title_page",
+      "label": "Ingresa un título"
+    },
+    {
+      "type": "richtext",
+      "id": "description_category",
+      "label": "Ingresa una descripción"
+    },
+    {
+      "type": "image_picker",
+      "id": "slider_icon_uno",
+      "label": "Selecciona un icono"
+    },
+    {
+      "type": "image_picker",
+      "id": "slider_icon_dos",
+      "label": "Selecciona un icono"
+    },
+    {
+      "type": "image_picker",
+      "id": "slider_icon_tres",
+      "label": "Selecciona un icono"
+    }
+  ]
+}
+{% endschema %}
