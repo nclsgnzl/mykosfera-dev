@@ -28,6 +28,116 @@
         "title_background_image": "shopify://shop_images/Venta.png"
       }
     },
+    "rich_text_8chPhX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zhjYjf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Explora nuestros tipos de hongos</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_BkieFh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Bienvenido a la sección donde la Melena de León, el Reishi, el Cordyceps y la Cola de Pavo transforman tu día a día. ¡Siente la diferencia!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_zhjYjf",
+        "text_BkieFh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "collection_list_Wd7Hab": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_mEAJia": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cafe"
+          }
+        },
+        "featured_collection_8Pzn96": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_q93ata": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_ptFeXR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_mEAJia",
+        "featured_collection_8Pzn96",
+        "featured_collection_q93ata",
+        "featured_collection_ptFeXR"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
+        "show_view_all": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_AH9riV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7VgCie": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Explora nuestros tipos de productos</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_YEHBHh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tu dosis diaria de bienestar, a tu manera: Elige entre nuestro café, cápsulas y extractos de hongos de calidad superior.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7VgCie",
+        "text_YEHBHh"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom-title-store": {
       "type": "custom-title-store",
       "settings": {
@@ -63,7 +173,7 @@
         "quick_add": "none",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 0,
+        "padding_top": 8,
         "padding_bottom": 36
       }
     },
@@ -126,8 +236,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "extractos",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "products_to_show": 3,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -149,6 +259,9 @@
   "order": [
     "main",
     "custom-title-page",
+    "rich_text_8chPhX",
+    "collection_list_Wd7Hab",
+    "rich_text_AH9riV",
     "custom-title-store",
     "featured_collection_rh3wXD",
     "custom-title-store2",
