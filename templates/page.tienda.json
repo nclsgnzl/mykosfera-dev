@@ -181,7 +181,7 @@
       "type": "custom-title-store",
       "settings": {
         "title_page": "Cápsulas",
-        "description_category": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices ornare lacus,<br/><br/></p>",
+        "description_category": "<p>Consume tus hongos favoritos en formatos de cápsulas, en diferentes tamaños y mezclas.<br/><br/></p>",
         "slider_icon_uno": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB_Mesa_de_trabajo_1.png",
         "slider_icon_dos": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-02.png",
         "slider_icon_tres": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-03.png"
@@ -203,7 +203,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -242,7 +242,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "color_scheme": "scheme-a200245c-3f6c-45e4-bb33-e6382f25b7ef",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
