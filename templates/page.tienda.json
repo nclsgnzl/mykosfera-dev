@@ -32,7 +32,7 @@
       "type": "custom-title-store",
       "settings": {
         "title_page": "Café",
-        "description_category": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices ornare lacus,<br/><br/></p>",
+        "description_category": "<p>Consume tus hongos favoritos en formatos de </p>",
         "slider_icon_uno": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB_Mesa_de_trabajo_1.png",
         "slider_icon_dos": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-02.png",
         "slider_icon_tres": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-03.png"
@@ -67,6 +67,16 @@
         "padding_bottom": 36
       }
     },
+    "custom-title-store2": {
+      "type": "custom-title-store",
+      "settings": {
+        "title_page": "Cápsulas",
+        "description_category": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices ornare lacus,<br/><br/></p>",
+        "slider_icon_uno": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB_Mesa_de_trabajo_1.png",
+        "slider_icon_dos": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-02.png",
+        "slider_icon_tres": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-03.png"
+      }
+    },
     "featured_collection_EEqrhw": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -94,6 +104,16 @@
         "swipe_on_mobile": false,
         "padding_top": 8,
         "padding_bottom": 36
+      }
+    },
+    "custom-title-store3": {
+      "type": "custom-title-store",
+      "settings": {
+        "title_page": "Extractos",
+        "description_category": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices ornare lacus,<br/><br/></p>",
+        "slider_icon_uno": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB_Mesa_de_trabajo_1.png",
+        "slider_icon_dos": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-02.png",
+        "slider_icon_tres": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-03.png"
       }
     },
     "featured_collection_bR47kq": {
@@ -131,7 +151,9 @@
     "custom-title-page",
     "custom-title-store",
     "featured_collection_rh3wXD",
+    "custom-title-store2",
     "featured_collection_EEqrhw",
+    "custom-title-store3",
     "featured_collection_bR47kq"
   ]
 }
