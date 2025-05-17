@@ -3624,6 +3624,18 @@ details-disclosure>details {
   font-family: BlissPro !important;
 }
 
+/* MICELIO FONDO */
+
+.micelio-fondo {
+  position: fixed;
+  bottom: 0px;
+}
+
+.micelio-fondo img {
+  width: 260px;
+  opacity: 0.1;
+}
+
 /* BOTÓN WHATSAPP */
 
 .wsp-icon {
@@ -3641,6 +3653,8 @@ details-disclosure>details {
   padding-top: 11px;
   padding-right: 48px;
 }
+
+
 
 .wsp-icon svg {
   position: relative;
