@@ -7,7 +7,8 @@
 
 .icons-title img {
     width: 40px;
-    margin-right: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .opacity {
@@ -87,7 +88,8 @@
 @media (min-width: 300px) and (max-width: 400px) {
 
     .icons-title img {
-        margin-right: 7% !important;
+        margin-left: 3% !important;
+        margin-right: 3% !important;
     }
 
 }
