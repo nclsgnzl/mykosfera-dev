@@ -1,102 +1,16 @@
-<style>
-  .icons-title {
-    margin-top: 40px;
-    margin-left: 100px;
-  }
-  .icons-title img {
-    width: 40px;
-    margin-right: 60px;
-  }
-  .opacity {
-    opacity: 0.5;
-  }
-  .category-title {
-    margin-left: 100px;
-  }
-  .category-title h2 {
-    font-size: 40px;
-    color: #79426a;
-  }
-  .category-description {
-    margin-left: 100px;
-  }
-  .category-description p {
-    font-size: 20px;
-    color: #79426a;
-  }
+{{ 'section.custom-store.css' | asset_url | stylesheet_tag }}
 
-  @media (min-width: 989px) and (max-width: 1600px) {
-    .icons-title {
-      margin-left: 14% !important;
-    }
-
-    .category-title {
-      margin-left: 14% !important;
-    }
-
-    .category-description {
-      margin-left: 14% !important;
-    }
-  }
-
-  @media (min-width: 450px) and (max-width: 989px) {
-    .icons-title {
-      margin-left: 7% !important;
-    }
-
-    .category-title {
-      margin-left: 7% !important;
-    }
-
-    .category-description {
-      margin-left: 7% !important;
-    }
-  }
-
-  @media (min-width: 400px) and (max-width: 450px) {
-    .icons-title {
-      margin-left: 7% !important;
-    }
-
-    .category-title {
-      margin-left: 7% !important;
-    }
-
-    .category-description {
-      margin-left: 7% !important;
-    }
-  }
-
-  @media (min-width: 300px) and (max-width: 400px) {
-    .icons-title {
-      margin-left: 7% !important;
-    }
-
-    .icons-title img {
-      margin-right: 7% !important;
-    }
-
-    .category-title {
-      margin-left: 7% !important;
-    }
-
-    .category-description {
-      margin-left: 7% !important;
-    }
-  }
-</style>
-
-<div class="icons-title">
+<div class="icons-title" align="center">
   <img src="{{ section.settings.slider_icon_uno | image_url }}" class="opacity">
   <img src="{{ section.settings.slider_icon_dos | image_url }}">
   <img src="{{ section.settings.slider_icon_tres | image_url }}" class="opacity">
 </div>
-<div class="category-title">
+<div class="category-title" align="center">
   <h2>
     <b>{{ section.settings.title_page }}</b>
   </h2>
 </div>
-<div class="category-description">
+<div class="category-description" align="center">
   <p>{{ section.settings.description_category }}</p>
 </div>
 
