@@ -21,24 +21,25 @@
             "link": "shopify://collections/cafe"
           }
         },
-        "announcement-bar-0": {
+        "announcement_pPN6wF": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
-            "text": "¡Bienvenidos a nuestra tienda!",
+            "text": "¡Aprovecha estos descuentos increíbles en este Cyber!",
             "link": ""
           }
         }
       },
       "block_order": [
         "announcement_PfjYMj",
-        "announcement-bar-0"
+        "announcement_pPN6wF"
       ],
       "settings": {
         "color_scheme": "scheme-3",
         "show_line_separator": true,
         "show_social": true,
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 7,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
