@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_9wR4Hd": {
+          "type": "announcement",
+          "settings": {
+            "text": "Te damos la bienvenida a nuestra tienda",
+            "link": ""
+          }
+        },
         "announcement_PfjYMj": {
           "type": "announcement",
           "settings": {
@@ -31,6 +38,7 @@
         }
       },
       "block_order": [
+        "announcement_9wR4Hd",
         "announcement_PfjYMj",
         "announcement_pPN6wF"
       ],
