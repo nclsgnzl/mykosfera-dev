@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_pPN6wF": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "¡Tenemos descuentos increíbles en este Cyber!",
             "link": "shopify://collections/cyber"
