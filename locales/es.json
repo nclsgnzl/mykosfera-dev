@@ -554,6 +554,9 @@
             "shop_cash_not_found": "No se encontró el efectivo de la tienda."
           }
         }
+      },
+      "contact": {
+        "city_label": "Comuna"
       }
     }
   },
