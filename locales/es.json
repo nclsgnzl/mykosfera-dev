@@ -557,6 +557,9 @@
       },
       "contact": {
         "city_label": "Comuna"
+      },
+      "field_errors": {
+        "address_city_blank": "Introduce la comuna"
       }
     }
   },
