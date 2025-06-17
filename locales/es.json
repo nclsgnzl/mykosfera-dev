@@ -563,7 +563,9 @@
         "email_or_phone_placeholder": "Email"
       },
       "field_errors": {
-        "address_city_blank": "Introduce la comuna"
+        "address_city_blank": "Introduce la comuna",
+        "email_or_phone_blank": "Introduce un correo electrónico válido",
+        "email_or_phone_invalid": "Introduce un correo electrónico válido"
       }
     }
   },
