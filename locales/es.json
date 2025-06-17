@@ -556,7 +556,8 @@
         }
       },
       "contact": {
-        "city_label": "Comuna"
+        "city_label": "Comuna",
+        "optional_address2_label": "Casa, apartamento, etc."
       },
       "field_errors": {
         "address_city_blank": "Introduce la comuna"
