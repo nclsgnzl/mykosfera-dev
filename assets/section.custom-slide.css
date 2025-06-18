@@ -45,6 +45,10 @@ mark {
     font-weight: 900;
 }
 
+.icon-slider-items {
+    margin-top: 5px;
+}
+
 @media (min-width: 450px) and (max-width: 989px) {
 
     .swiper .swiper-slide .slide-content {
