@@ -56,12 +56,28 @@
             "slider_icon_third_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-06.png",
             "slide_icon_text_3": "Regeneración"
           }
+        },
+        "slider_kxYKKy": {
+          "type": "slider",
+          "settings": {
+            "slide_text_1": "Desde",
+            "slide_text_2": "MARCHIGÜE",
+            "slide_text_3": "llevando nuestros productos para tu bienestar",
+            "slide_image": "shopify://shop_images/slide_final_planta_marchigue-100.jpg",
+            "slider_icon_first_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-06.png",
+            "slide_icon_text_1": "Natural",
+            "slider_icon_second_image": "shopify://shop_images/Mesa_de_trabajo_9.png",
+            "slide_icon_text_2": "Local",
+            "slider_icon_third_image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-05.png",
+            "slide_icon_text_3": "Circular"
+          }
         }
       },
       "block_order": [
         "slider_UtDn3d",
         "slider_EXUnRQ",
-        "slider_H3A8bp"
+        "slider_H3A8bp",
+        "slider_kxYKKy"
       ],
       "settings": {}
     },
