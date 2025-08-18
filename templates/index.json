@@ -183,9 +183,9 @@
     "featured_collection_jpTQJa": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Tu Match Perfecto</strong>",
+        "title": "<strong>Los favoritos</strong>",
         "heading_size": "h1",
-        "description": "<h3><strong>Escoge variedad entre especies y productos con estos packs pensados exclusivamente para ti. Tu experiencia será completa.</strong></h3>",
+        "description": "<p>Convierte el Melena de León, el Reishi, el Cordyceps o el Cola de Pavo en tus favoritos para transformar tu día a día. ¡Siente la diferencia!</p>",
         "show_description": false,
         "description_style": "body",
         "collection": "match-perfecto",
