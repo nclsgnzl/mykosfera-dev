@@ -81,6 +81,34 @@
       ],
       "settings": {}
     },
+    "featured_collection_jpTQJa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>Destacados del Mundo Fungi</strong>",
+        "heading_size": "h1",
+        "description": "<p>Nuestra selección de productos parta los amantes del Mundo Fungi</p>",
+        "show_description": true,
+        "description_style": "body",
+        "collection": "mundo-fungi",
+        "products_to_show": 8,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_m76mRC": {
       "type": "rich-text",
       "blocks": {
@@ -180,7 +208,7 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_jpTQJa": {
+    "featured_collection_WWzPpB": {
       "type": "featured-collection",
       "settings": {
         "title": "<strong>Los favoritos</strong>",
@@ -318,10 +346,11 @@
   },
   "order": [
     "slider-banner",
+    "featured_collection_jpTQJa",
     "rich_text_m76mRC",
     "collection_list_3iwkw8",
     "featured_collection",
-    "featured_collection_jpTQJa",
+    "featured_collection_WWzPpB",
     "featured_collection_h8AyiW",
     "section-nosotros",
     "featured_blog_jhJe8X",
