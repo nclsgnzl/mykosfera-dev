@@ -219,7 +219,7 @@
       "reset": "Restablecer",
       "sort_button": "Ordenar",
       "sort_by_label": "Ordenar por:",
-      "to": "Para",
+      "to": "Hasta",
       "clear_filter": "Eliminar filtro",
       "filter_selected_accessibility": "{{ type }} ({{ count }} filtros seleccionados)",
       "show_more": "Mostrar más",
