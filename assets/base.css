@@ -3702,6 +3702,7 @@ h5,
 
 .card__information .card__heading{
   font-size: calc(var(--font-heading-scale) * 1.8rem);
+  font-weight: bold !important;
 }
 
 .card-information .price, .price .price__container{
