@@ -3678,7 +3678,7 @@ details-disclosure>details {
   background-color: #ffa033;
 }
 
-.card-information.price{
+.card-information .price{
   color:  #542349 !important;
   font-size: 3rem !important;
 }
