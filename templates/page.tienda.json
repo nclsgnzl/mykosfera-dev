@@ -179,6 +179,7 @@
     },
     "custom-title-store2": {
       "type": "custom-title-store2",
+      "custom_css": [],
       "settings": {
         "title_page": "Cápsulas",
         "description_category": "<p>Consume tus hongos favoritos en formatos de cápsulas, en diferentes tamaños y mezclas.<br/><br/></p>",
