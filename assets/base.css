@@ -3679,6 +3679,10 @@ details-disclosure>details {
   background-color: #ffa033;
 }
 
+.card__information .card__heading{
+  font-size: calc(var(--font-heading-scale) * 1.2rem);
+}
+
 .card-information .price{
   color:  #542349 !important;
   font-size: calc(var(--font-heading-scale) * 2.5rem);
