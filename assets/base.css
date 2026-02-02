@@ -247,7 +247,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   font-size: 1.5rem;
   letter-spacing: 0.06rem;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
-  font-family: BlissPro !important;
+  font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
 }
@@ -263,9 +263,9 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: "Vend Sans", sans-serif !important;
-  font-style: normal !important;
-  font-weight: 500 !important;
+  font-family: var(--font-heading-family);
+  font-style: var(--font-heading-style);
+  font-weight: var(--font-heading-weight);
   letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
   color: rgb(var(--color-foreground));
   line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
@@ -3663,6 +3663,22 @@ details-disclosure>details {
   bottom: 5px;
   width: 37px;
   fill: rgb(255, 255, 255);
+}
+
+/*ESTILOS GLOBALES TIPOGRAFÍA*/
+.text-body{
+  font-family: BlissPro !important;
+}
+
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: "Vend Sans", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
 }
 
 /*ESTILOS TARJETAS DESTACADOS*/
