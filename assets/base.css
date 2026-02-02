@@ -3686,6 +3686,12 @@ h5,
   font-weight: 500 !important;
 }
 
+
+/*FONDO*/
+body{
+  background-color: #EEEEEE !important;
+}
+
 /*ESTILOS TARJETAS DESTACADOS*/
 
 .quick-add__submit {
