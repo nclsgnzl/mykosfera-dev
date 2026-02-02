@@ -3694,7 +3694,7 @@ h5,
   border-radius: 999px;
   text-transform: uppercase;
   --color-button-text: none;
-  padding: 2px;
+  padding: .2rem !important;
 }
 
 .quick-add__submit:hover {
@@ -3713,6 +3713,6 @@ h5,
 }
 
 .card .card__content, .card__content .card__information{
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 0;
+  padding-left: 0;
 }
