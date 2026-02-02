@@ -3717,7 +3717,7 @@ h5,
 }
 
 .product-card-wrapper .card, .contains-card--product{
-  padding: calc(var(--product-card-image-padding)*1.5rem);
+  padding: calc(var(--product-card-image-padding)*1.5rem) !important;
 }
 .card .card__content, .card__content .card__information{
   padding-right: 0;
