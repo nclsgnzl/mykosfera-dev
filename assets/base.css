@@ -3668,6 +3668,7 @@ details-disclosure>details {
 .quick-add__submit {
   background-color: #542349;
   color: #eeeeee;
+  border-radius: 50px;
 }
 
 .quick-add__submit:hover {
