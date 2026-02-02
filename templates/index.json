@@ -79,10 +79,14 @@
         "slider_H3A8bp",
         "slider_kxYKKy"
       ],
+      "custom_css": [],
       "settings": {}
     },
     "featured_collection_jpTQJa": {
       "type": "featured-collection",
+      "custom_css": [
+        ".button::hover {background-color: #eadfcd;}"
+      ],
       "settings": {
         "title": "<strong>Destacados del Mundo Fungi</strong>",
         "heading_size": "h1",
@@ -90,8 +94,8 @@
         "show_description": true,
         "description_style": "body",
         "collection": "mundo-fungi",
-        "products_to_show": 12,
-        "columns_desktop": 6,
+        "products_to_show": 8,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -102,7 +106,7 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
