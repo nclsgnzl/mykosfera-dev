@@ -3703,6 +3703,7 @@ h5,
 
 .collection__description{
   font-size: calc(var(--font-heading-scale) * 2rem);
+  color: #282828;
 }
 
 .card__information .card__heading{
