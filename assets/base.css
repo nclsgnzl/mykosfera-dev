@@ -3690,5 +3690,5 @@ details-disclosure>details {
 }
 
 .body{
-  font-size: calc(var(--font-heading-scale) * 1.8rem);
+  font-size: calc(var(--font-heading-scale) * 1.8rem) !important;
 }
