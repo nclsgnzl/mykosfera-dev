@@ -3694,7 +3694,7 @@ h5,
   border-radius: 999px;
   text-transform: uppercase;
   --color-button-text: none;
-  padding: .2rem !important;
+  padding: .1rem !important;
 }
 
 .quick-add__submit:hover {
@@ -3706,7 +3706,7 @@ h5,
   font-weight: bold !important;
 }
 
-.card-information .price, .price .price__container{
+. contains-card .card-information .price, .price .price__container{
   color:  #542349 !important;
   font-size: calc(var(--font-heading-scale) * 3.5rem);
   font-weight: bold;
