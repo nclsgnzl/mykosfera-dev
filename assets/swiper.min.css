@@ -58,7 +58,7 @@
 .swiper-android .swiper-slide,
 .swiper-ios .swiper-slide,
 .swiper-wrapper {
-    transform: translate3d(0px, 0, 0)
+    transform: translate3d(0px, 0, 300)
 }
 
 .swiper-horizontal {
