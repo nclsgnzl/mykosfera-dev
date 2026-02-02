@@ -3668,7 +3668,7 @@ details-disclosure>details {
 /*ESTILOS TARJETAS DESTACADOS*/
 
 .quick-add__submit {
-  background-color: #542349;
+  background-color: #79426A;
   color: #eeeeee;
   border-radius: 999px;
   text-transform: uppercase;
@@ -3680,7 +3680,7 @@ details-disclosure>details {
 }
 
 .card-information .price{
-  color:  #542349 !important;
+  color:  #79426A !important;
   font-size: calc(var(--font-heading-scale) * 2.5rem);
   font-weight: bold;
 }
