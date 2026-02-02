@@ -3680,7 +3680,7 @@ details-disclosure>details {
 }
 
 .card__information .card__heading{
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  font-size: calc(var(--font-heading-scale) * 2rem);
 }
 
 .card-information .price{
