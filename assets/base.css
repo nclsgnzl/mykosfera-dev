@@ -3688,3 +3688,7 @@ details-disclosure>details {
   font-size: calc(var(--font-heading-scale) * 2.5rem);
   font-weight: bold;
 }
+
+.body{
+  font-size: calc(var(--font-heading-scale) * 1.8rem);
+}
