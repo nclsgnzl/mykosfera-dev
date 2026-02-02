@@ -3704,7 +3704,7 @@ h5,
   font-size: calc(var(--font-heading-scale) * 1.8rem);
 }
 
-.card-information .price{
+.price{
   color:  #542349 !important;
   font-size: calc(var(--font-heading-scale) * 2.5rem);
   font-weight: bold;
