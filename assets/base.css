@@ -3711,6 +3711,7 @@ h5,
   font-weight: bold;
 }
 
-.card .card__content{
-  padding: 0px;
+.card .card__content, .card__content .card__information{
+  padding-right: 0px;
+  padding-left: 0px;
 }
