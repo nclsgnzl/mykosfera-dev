@@ -3701,7 +3701,7 @@ h5,
 }
 
 .card__information .card__heading{
-  font-size: calc(var(--font-heading-scale) * 1.8rem);
+  font-size: calc(var(--font-heading-scale) * 2rem);
   font-weight: bold !important;
 }
 
