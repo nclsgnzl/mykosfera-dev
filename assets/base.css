@@ -3706,7 +3706,7 @@ h5,
   font-weight: bold !important;
 }
 
-. contains-card .card-information .price, .price .price__container{
+.contains-card .card-information .price, .price .price__container{
   color:  #542349 !important;
   font-size: calc(var(--font-heading-scale) * 3.5rem);
   font-weight: bold;
