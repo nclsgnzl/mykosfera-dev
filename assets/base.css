@@ -3701,16 +3701,15 @@ h5,
   background-color: #ffa033;
 }
 
+.collection__description{
+  font-size: calc(var(--font-heading-scale) * 2rem);
+}
+
 .card__information .card__heading{
   font-size: calc(var(--font-heading-scale) * 2rem);
   font-weight: bold !important;
 }
 
-.card-information .price, .price .price__container{
-  color:  #542349 !important;
-  font-size: calc(var(--font-heading-scale) * 3.5rem);
-  font-weight: bold;
-}
 
 .product-card-wrapper .card, .contains-card--product{
   padding: 2rem !important;
