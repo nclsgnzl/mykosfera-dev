@@ -3702,7 +3702,7 @@ h5,
 }
 
 .collection__description{
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scale) * 2.5rem);
   color: #282828;
 }
 
