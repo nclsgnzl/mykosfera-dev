@@ -3694,7 +3694,6 @@ h5,
   border-radius: 999px;
   text-transform: uppercase;
   --color-button-text: none;
-  padding: .1rem !important;
 }
 
 .quick-add__submit:hover {
