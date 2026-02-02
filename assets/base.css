@@ -3688,33 +3688,4 @@ h5,
 
 /*ESTILOS TARJETAS DESTACADOS*/
 
-.quick-add__submit {
-  background-color: #542349;
-  color: #eeeeee;
-  border-radius: 999px;
-  text-transform: uppercase;
-  --color-button-text: none;
-  padding: .1rem !important;
-}
 
-.quick-add__submit:hover {
-  background-color: #ffa033;
-}
-
-.collection__description{
-  font-size: calc(var(--font-heading-scale) * 2rem);
-}
-
-.card__information .card__heading{
-  font-size: calc(var(--font-heading-scale) * 2rem);
-  font-weight: bold !important;
-}
-
-
-.product-card-wrapper .card, .contains-card--product{
-  padding: 2rem !important;
-}
-.card .card__content, .card__content .card__information{
-  padding-right: 0;
-  padding-left: 0;
-}
