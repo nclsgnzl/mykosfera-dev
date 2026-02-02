@@ -3710,3 +3710,7 @@ h5,
   font-size: calc(var(--font-heading-scale) * 3rem);
   font-weight: bold;
 }
+
+.card .card__content, .card__content .card__information{
+  padding:none;
+}
