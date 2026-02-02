@@ -3665,6 +3665,8 @@ details-disclosure>details {
   fill: rgb(255, 255, 255);
 }
 
+/*ESTILOS TARJETAS DESTACADOS*/
+
 .quick-add__submit {
   background-color: #542349;
   color: #eeeeee;
@@ -3674,4 +3676,9 @@ details-disclosure>details {
 
 .quick-add__submit:hover {
   background-color: #ffa033;
+}
+
+.price{
+  color:  #542349;
+  font-size: 3rem;
 }
