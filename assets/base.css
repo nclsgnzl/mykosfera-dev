@@ -3620,10 +3620,10 @@ details-disclosure>details {
   src: url('https://cdn.shopify.com/s/files/1/0920/5147/2690/files/BlissProRegular.otf?v=1738799986');
 }
 
-
+/*
 * {
   font-family: BlissPro;
-}
+}*/
 
 /* MICELIO FONDO */
 
@@ -3663,4 +3663,44 @@ details-disclosure>details {
   bottom: 5px;
   width: 37px;
   fill: rgb(255, 255, 255);
+}
+
+/*ESTILOS GLOBALES TIPOGRAFÍA*/
+.text-body{
+  font-family: BlissPro !important;
+}
+
+.h0,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5 {
+  font-family: "Vend Sans", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+}
+
+/*ESTILOS TARJETAS DESTACADOS*/
+
+.quick-add__submit {
+  background-color: #542349;
+  color: #eeeeee;
+  border-radius: 999px;
+  text-transform: uppercase;
+  --color-button-text: none;
+}
+
+.quick-add__submit:hover {
+  background-color: #ffa033;
+}
+
+.card__information .card__heading{
+  font-size: calc(var(--font-heading-scale) * 1.8rem);
+}
+
+.card-information .price{
+  color:  #542349 !important;
+  font-size: calc(var(--font-heading-scale) * 2.5rem);
+  font-weight: bold;
 }
