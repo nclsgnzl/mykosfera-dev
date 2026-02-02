@@ -3664,3 +3664,12 @@ details-disclosure>details {
   width: 37px;
   fill: rgb(255, 255, 255);
 }
+
+.quick-add__submit {
+  background-color: #542349;
+  color: #eeeeee;
+}
+
+.quick-add__submit:hover {
+  background-color: #ffa033;
+}
