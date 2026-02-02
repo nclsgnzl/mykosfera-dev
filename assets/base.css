@@ -3713,7 +3713,7 @@ h5,
 }
 
 .product-card-wrapper .card, .contains-card--product{
-  padding: .8rem !important;
+  padding: 1rem !important;
 }
 .card .card__content, .card__content .card__information{
   padding-right: 0;
