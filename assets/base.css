@@ -3681,6 +3681,6 @@ details-disclosure>details {
 
 .card-information .price{
   color:  #542349 !important;
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  font-size: calc(var(--font-heading-scale) * 2.5rem);
   font-weight: bold;
 }
