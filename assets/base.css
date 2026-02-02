@@ -3671,6 +3671,7 @@ details-disclosure>details {
   background-color: #542349;
   color: #eeeeee;
   border-radius: 999px;
+  font-style: capitalize;
   --color-button-text: none;
 }
 
@@ -3679,7 +3680,7 @@ details-disclosure>details {
 }
 
 .card-information .price{
-  color:  #542349 !important;
-  font-size: 2.5rem !important;
-  font-weight: 500px !important;
+  color:  #542349;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
