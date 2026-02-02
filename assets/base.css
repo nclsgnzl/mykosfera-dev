@@ -3669,8 +3669,7 @@ details-disclosure>details {
   background-color: #542349;
   color: #eeeeee;
   border-radius: 999px;
-  outline: none;
-  box-shadow: none;
+  --color-button-text: none;
 }
 
 .quick-add__submit:hover {
