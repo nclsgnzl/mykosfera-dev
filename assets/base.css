@@ -3712,5 +3712,6 @@ h5,
 }
 
 .card .card__content{
-  padding: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
