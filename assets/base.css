@@ -3680,11 +3680,11 @@ details-disclosure>details {
 }
 
 .card__information .card__heading{
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scale) * 1.8rem);
 }
 
 .card-information .price{
   color:  #542349 !important;
-  font-size: calc(var(--font-heading-scale) * 3.2rem);
+  font-size: calc(var(--font-heading-scale) * 2.5rem);
   font-weight: bold;
 }
