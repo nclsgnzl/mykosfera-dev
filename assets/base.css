@@ -3709,7 +3709,7 @@ h5,
 
 /*SUBTITULOS*/
 .collection__description{
-  font-size: calc(var(--font-heading-scale) * 2.5rem);
+  font-size: calc(var(--font-heading-scale) * 2rem);
   color: #282828;
   font-weight: bold;
 }
