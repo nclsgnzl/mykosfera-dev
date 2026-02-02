@@ -3706,12 +3706,15 @@ h5,
   font-weight: bold !important;
 }
 
-.contains-card .card-information .price, .price .price__container{
+.card-information .price, .price .price__container{
   color:  #542349 !important;
   font-size: calc(var(--font-heading-scale) * 3.5rem);
   font-weight: bold;
 }
 
+.product-card-wrapper .card, .contains-card--product{
+  padding: .8rem !important;
+}
 .card .card__content, .card__content .card__information{
   padding-right: 0;
   padding-left: 0;
