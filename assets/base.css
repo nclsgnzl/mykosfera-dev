@@ -3697,7 +3697,12 @@ h5,
 .collection__description, .rich-text{
   font-size: calc(var(--font-heading-scale) * 2rem);
   color: #282828;
-  font-weight: bold;
+  font-weight: 400;
+}
+
+
+.h5 {
+  font-family: BlissPro !important;
 }
 
 /*PRECIOS*/
