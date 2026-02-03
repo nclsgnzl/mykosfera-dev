@@ -255,13 +255,15 @@
 
 @media screen and (max-width: 989px) {
   .quick-add__submit {
-    background-image: url(https://www.flaticon.com/free-icon/add-cart_4153710?term=cart&page=1&position=49&origin=tag&related_id=4153710);
+    background-image: url('{{ "cart-arrow-down-solid.svg" | asset_url }}');
     background-color: #542349;
     color: #eadfcd;
     border-radius: 999px;
     font-size: 0;
     --color-button-text: none;
     transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
+    width: 44px;
+    height: 44px;
   }
   .card-information quantity-popover .quantity__rules ~ volume-pricing {
     margin-top: 0;
