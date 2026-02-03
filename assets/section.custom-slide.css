@@ -119,6 +119,7 @@ mark {
 
 .swiper-button-prev, .swiper-button-next{
     color:  #ece8e8e6;
+    transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
 }
 
 .swiper-button-prev:hover, .swiper-button-next:hover{
