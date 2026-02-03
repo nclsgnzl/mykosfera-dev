@@ -3677,7 +3677,6 @@ h1,h2,h3,h4,h5,
   font-weight: 500 !important;
 }
 
-
 /*TITULOS*/
 .card__information .card__heading{
   font-size: calc(var(--font-heading-scale) * 2rem);
@@ -3690,7 +3689,6 @@ h1,h2,h3,h4,h5,
   color: #282828;
   font-weight: 500;
 }
-
 
 .h5 {
   font-family: BlissPro !important;
