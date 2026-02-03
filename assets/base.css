@@ -3670,17 +3670,8 @@ details-disclosure>details {
   font-family: BlissPro !important;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-.h0,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5 {
+h1,h2,h3,h4,h5,
+.h0,.h1,.h2,.h3,.h4,.h5 {
   font-family: "Vend Sans", sans-serif !important;
   font-style: normal !important;
   font-weight: 500 !important;
