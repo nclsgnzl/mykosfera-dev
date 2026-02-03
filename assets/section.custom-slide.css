@@ -117,3 +117,7 @@ mark {
 
 /*IMPORTAR SWIPER*/
 @import url('https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css');
+.swiper-button-next,
+.swiper-button-prev {
+  z-index: 10;
+}
