@@ -256,12 +256,24 @@
 @media screen and (max-width: 989px) {
   .quick-add__submit {
     background-image: url('https://www.iconpacks.net/icons/2/free-add-to-cart-icon-3046-thumb.png');
-    color: #eadfcd;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+
+    background-color: #542349;
+
     border-radius: 999px;
-    --color-button-text: none;
-    transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
+
     width: 44px;
     height: 44px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    overflow: hidden;
   }
 
   .quick-add__submit span {
