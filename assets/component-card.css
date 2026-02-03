@@ -593,3 +593,23 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+
+
+
+/*ESTILOS TARJETAS DESTACADOS*/
+
+.quick-add__submit {
+  background-color: #542349;
+  color: #eadfcd;
+  border-radius: 999px;
+  text-transform: uppercase;
+  --color-button-text: none;
+  transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
+}
+
+.quick-add__submit:hover {
+  background-color: #ffa033;
+  color: #542349;
+  transform: scale(1.2);
+
+}

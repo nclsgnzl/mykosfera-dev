@@ -3687,21 +3687,6 @@ h5,
 }
 
 
-/*ESTILOS TARJETAS DESTACADOS*/
-
-.quick-add__submit {
-  background-color: #542349;
-  color: #eadfcd;
-  border-radius: 999px;
-  text-transform: uppercase;
-  --color-button-text: none;
-}
-
-.quick-add__submit:hover {
-  background-color: #ffa033;
-  color: #542349;
-}
-
 /*TITULOS*/
 .card__information .card__heading{
   font-size: calc(var(--font-heading-scale) * 2rem);
