@@ -114,3 +114,9 @@ mark {
         display: none !important;
     }
 }
+
+/*BOTONES SLIDER*/
+
+.swiper-button-prev, .swiper-button-next{
+    color:  #ece8e8e6;
+}
