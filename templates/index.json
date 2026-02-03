@@ -84,9 +84,7 @@
     },
     "featured_collection_jpTQJa": {
       "type": "featured-collection",
-      "custom_css": [
-        ".button::hover {background-color: #eadfcd;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "<strong>Destacados del Mundo Fungi</strong>",
         "heading_size": "h1",
@@ -126,7 +124,7 @@
         "text_gKDgM3": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Consume hongos de la manera que más te guste, con los diferentes formatos que Mykósfera te ofrece.</strong></p>"
+            "text": "<p>Consume hongos de la manera que más te guste, con los diferentes formatos que Mykósfera te ofrece.</p>"
           }
         }
       },
