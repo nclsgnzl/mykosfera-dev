@@ -50,12 +50,12 @@
       </div>
     {% endfor %}
   </div>
-  <!-- If we need pagination 
-  <div class="swiper-pagination"></div>-->
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
 
   <!-- If we need navigation buttons -->
-  <div class="swiper-button-prev"><a></a></div>
-  <div class="swiper-button-next"><a></a></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
 
   <!-- If we need scrollbar -->
   <div class="swiper-scrollbar"></div>
@@ -67,6 +67,10 @@
     
     direction: 'horizontal',
     loop: true,
+    autoplay: {
+      enabled: false,
+      speed: 6000,
+    },
 
     // If we need pagination
     pagination: {
@@ -87,8 +91,7 @@
     spaceBetween: 30,
     centeredSlides: true,
     autoplay: {
-      speed: 5000,
-      delay: 4000,
+      delay: 2500,
       disableOnInteraction: false,
     },
     pagination: {
