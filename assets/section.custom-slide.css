@@ -120,3 +120,8 @@ mark {
 .swiper-button-prev, .swiper-button-next{
     color:  #ece8e8e6;
 }
+
+.swiper-button-prev::hover, .swiper-button-next::hover{
+    color:  #eeeeee;
+    transform: scale(1.5);
+}
