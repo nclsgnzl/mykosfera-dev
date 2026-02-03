@@ -3690,20 +3690,20 @@ h5,
 /*TITULOS*/
 .card__information .card__heading{
   font-size: calc(var(--font-heading-scale) * 2rem);
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 
 /*SUBTITULOS*/
 .collection__description, .rich-text{
   font-size: calc(var(--font-heading-scale) * 2rem);
   color: #282828;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 
 .h5 {
   font-family: BlissPro !important;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /*PRECIOS*/
