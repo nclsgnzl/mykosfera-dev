@@ -3685,7 +3685,7 @@ h1,h2,h3,h4,h5,
 
 /*SUBTITULOS*/
 .collection__description, .rich-text{
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
   color: #282828;
   font-weight: 500;
 }
