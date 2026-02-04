@@ -30,7 +30,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "h2 {font-family: Vend Sans !important; font-weight: bold !important; font-size: 1.6rem; color: #542349;}",
-        "span,select {font-weight: 600; font-size: 1.6rem;}",
+        ".facets__summary-label,select {font-weight: 600; font-size: 1.6rem;}",
         ".active-facets__button-inner {color: #eadfcd; transform: none; box-shadow: 0 0 0 0;}",
         ".mobile-facets__open {color: #542349;}",
         ".mobile-facets__sort {font-weight: bold !important; font-size: 1.6rem; color: #542349;}"
