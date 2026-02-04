@@ -3704,6 +3704,7 @@ h1,h2,h3,h4,h5,
 
 .product-card-wrapper .card, .contains-card--product{
   padding: 1rem !important;
+  margin: 0 !important;
 }
 .card .card__content, .card__content .card__information{
   padding-right: 0;
