@@ -3729,7 +3729,7 @@ h3.h5 {
 }
 
 .button:disabled{
-  hover: not-allowed;
+  hover: not-allowed !important;
 }
 .collection__view-all .button{
   background-color: #ffa033 !important;
