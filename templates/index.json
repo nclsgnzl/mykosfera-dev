@@ -455,7 +455,7 @@
       "custom_css": [
         "slideshow-component {position: relative;}",
         ".slideshow__controls--top {position: absolute; top: 50%; width: 100vw; transform: translateY(-50%); display: flex; justify-content: space-between; pointer-events: none; z-index: 10; border: 0px;}",
-        ".slider-button {pointer-events: auto; margin: 0 1rem;}",
+        ".slider-button {pointer-events: auto; margin: 0 0.5rem;}",
         ".slideshow__controls--top svg {color: #eadfcd; height: 10rem;}",
         ".slideshow__controls--top svg:hover {color: #79426a;}",
         ".slideshow__autoplay,.slider-counter__link--dots {display: none;}",
