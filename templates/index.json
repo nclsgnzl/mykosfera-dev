@@ -452,13 +452,20 @@
         "slide_XU3XtH",
         "slide_6NqNLh"
       ],
+      "custom_css": [
+        "/* Flechas del slideshow sobre las imágenes */.slideshow__controls,.slideshow__controls--top {position: absolute; inset: 0; z-index: 5; pointer-events: none;}",
+        "/* Habilitar clic solo en los botones */.slideshow__controls button {pointer-events: auto;}",
+        "/* Posición lateral */.slideshow .slider-button--prev,.slideshow .slider-button--next {position: absolute; top: 50%; transform: translateY(-50%);}",
+        "/* Izquierda */.slideshow .slider-button--prev {left: 20px;}",
+        "/* Derecha */.slideshow .slider-button--next {right: 20px;}"
+      ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "image_behavior": "ambient",
         "show_text_below": true,
         "accessibility_info": "Presentación de diapositivas sobre tu marca"
