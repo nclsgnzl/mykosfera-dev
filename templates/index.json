@@ -407,66 +407,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1770236046ca836d0b": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "slideshow_pwkgeY": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_6TUz7H": {
-          "type": "slide",
-          "settings": {
-            "heading": "Diapositiva de imagen",
-            "heading_size": "h1",
-            "subheading": "Cuenta la historia de tu marca a través de imágenes",
-            "button_label": "Etiqueta de botón",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_UTH4U6": {
-          "type": "slide",
-          "settings": {
-            "heading": "Diapositiva de imagen",
-            "heading_size": "h1",
-            "subheading": "Cuenta la historia de tu marca a través de imágenes",
-            "button_label": "Etiqueta de botón",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_6TUz7H",
-        "slide_UTH4U6"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Presentación de diapositivas sobre tu marca"
-      }
     }
   },
   "order": [
@@ -480,8 +420,6 @@
     "section-nosotros",
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx",
-    "collection_list_nDt4TA",
-    "1770236046ca836d0b",
-    "slideshow_pwkgeY"
+    "collection_list_nDt4TA"
   ]
 }
