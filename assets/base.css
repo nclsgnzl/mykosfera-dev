@@ -3718,6 +3718,12 @@ h1,h2,h3,h4,h5,
   transform: scale(1.02);
 }
 
+.collection__view-all .button:hover{
+  background-color: #542349;
+  color: #eadfcd;
+  transform: scale(1.02);
+}
+
 
 .quick-add__submit {
   background-color: #542349;
