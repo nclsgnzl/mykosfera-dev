@@ -386,7 +386,14 @@
         "featured_collection_VUGKcb",
         "featured_collection_QxxNUb"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".collection-list-wrapper {max-width: 100% !important; width: 100%;}",
+        ".page-width {max-width: 100% !important; width: 100%; padding-left: 0 !important; padding-right: 0 !important;}",
+        ".contains-card--collection.grid {width: 100%; column-gap: 0 !important;}",
+        ".contains-card--collection .grid__item {padding: 0 !important;}",
+        ".slider-mobile-gutter {padding-left: 0 !important; padding-right: 0 !important;}",
+        ".card__media img {width: 100%; height: 100%; object-fit: cover;}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "<strong>Nuestros Hongos</strong>",
