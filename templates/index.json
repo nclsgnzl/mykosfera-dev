@@ -392,7 +392,7 @@
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
         "ul {padding: 0;}",
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important; --collection-card-shadow-vertical-offset: 0; row-gap: 0;}",
-        ".collection-list-wrapper {width: 100vw; margin-left: calc(50% - 50vw);}"
+        ".collection-list {grid-template-columns: repeat(4, 1fr); gap: 0;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
