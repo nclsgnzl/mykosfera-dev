@@ -3723,7 +3723,7 @@ h1,h2,h3,h4,h5,
 .button:hover{
   background-color: #ffa033 !important;
   color: #542349 !important;
-  transform: scale(1.02) !important;
+  transform: scale(1.08) !important;
 }
 
 .collection__view-all .button{
@@ -3733,5 +3733,8 @@ h1,h2,h3,h4,h5,
 
 .collection__view-all .button:hover{
   background-color:rgba(255, 160, 51, 0.75) !important;
-  transform: scale(1.1) !important;
+}
+
+.quick-add__submit:hover {
+  transform: scale(1.02) !important;
 }
