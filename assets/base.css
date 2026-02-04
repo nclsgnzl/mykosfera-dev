@@ -3723,11 +3723,14 @@ h3.h5 {
 }
 
 .button:hover{
-  background-color: #ffa033 !important;
-  color: #542349 !important;
-  transform: scale(1.08) !important;
+  background-color: #ffa033;
+  color: #542349;
+  transform: scale(1.08);
 }
 
+.button:disabled{
+
+}
 .collection__view-all .button{
   background-color: #ffa033 !important;
   color: #542349 !important;
