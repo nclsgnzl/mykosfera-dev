@@ -388,12 +388,12 @@
       ],
       "custom_css": [
         ".collection-list-wrapper {--page-width: 100%;}",
-        "h3 {color: transparent;}",
+        ".card__information {display: none;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
         "ul {padding: 0;}",
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important; --collection-card-shadow-vertical-offset: 0; row-gap: 0;}",
         "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
-        ".card__heading a::after {position: absolute; inset: 0; z-index: 2;}"
+        ".card,.card__inner,.card__media,.media {overflow: hidden;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
