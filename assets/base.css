@@ -3679,6 +3679,7 @@ h1,h2,h3,h4,h5,
 
 /*TITULOS*/
 .card__information .card__heading{
+  font-size: calc(var(--font-heading-scale) * 2rem);
   font-weight: 500 !important;
 }
 
@@ -3703,23 +3704,8 @@ h1,h2,h3,h4,h5,
 
 .product-card-wrapper .card, .contains-card--product{
   padding: 1rem !important;
-  margin: 0 !important;
 }
 .card .card__content, .card__content .card__information{
   padding-right: 0;
   padding-left: 0;
-}
-
-/*SECCION DESTACADOS HOME*/
-
-.collection__title.title-wrapper {
-  margin-bottom: 0 !important;
-}
-
-.card-wrapper .card .card__content .card__information {
-  padding-top: 0 !important;
-}
-
-.collection__view-all a:not(.link) {
-  margin-top: 0 !important;
 }
