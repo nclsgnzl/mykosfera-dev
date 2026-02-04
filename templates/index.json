@@ -348,6 +348,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "collection_list_nDt4TA": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_UHFKxB": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cordyceps-militaris"
+          }
+        },
+        "featured_collection_Ex93jz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cola-de-pavo"
+          }
+        },
+        "featured_collection_VUGKcb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "melena-de-leon"
+          }
+        },
+        "featured_collection_QxxNUb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "reishi"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_UHFKxB",
+        "featured_collection_Ex93jz",
+        "featured_collection_VUGKcb",
+        "featured_collection_QxxNUb"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "<strong>Nuestros Hongos</strong>",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -360,6 +408,7 @@
     "featured_collection_h8AyiW",
     "section-nosotros",
     "featured_blog_jhJe8X",
-    "collapsible_content_BaPTEx"
+    "collapsible_content_BaPTEx",
+    "collection_list_nDt4TA"
   ]
 }
