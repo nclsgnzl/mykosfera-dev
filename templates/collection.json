@@ -28,6 +28,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".active-facets__button-inner {color: #eadfcd; transform: none; box-shadow: 0 0 0 0;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_desktop": 4,
