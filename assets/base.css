@@ -3715,6 +3715,7 @@ h1,h2,h3,h4,h5,
 .collection__view-all .button{
   background-color: #ffa033;
   color: #542349;
+  border: 0;
   transform: scale(1.02);
 }
 
