@@ -454,11 +454,12 @@
       ],
       "custom_css": [
         "slideshow-component {position: relative;}",
-        ".slideshow__controls--top {position: absolute; top: 50%; left: 0; width: 100vw; transform: translateY(-50%); display: flex; justify-content: space-between; align-items: center; pointer-events: none; z-index: 10; border: 0px;}",
-        "/* Flechas */.slideshow__controls--top .slider-button {pointer-events: auto; margin: 0 1.5rem;}",
+        ".slideshow__controls--top {position: absolute; top: 50%; width: 100vw; transform: translateY(-50%); display: flex; justify-content: space-between; align-items: center; pointer-events: none; z-index: 10; border: 0px;}",
+        ".slider-button {pointer-events: auto; margin: 0 1.5rem;}",
         ".slideshow__controls--top svg {color: #eadfcd; height: 10rem;}",
-        ".slideshow__controls--top svg:hover {color: #79426A;}",
-        ".slideshow__autoplay,.slider-counter__link--dots {display: none;}"
+        ".slideshow__controls--top svg:hover {color: #79426a;}",
+        ".slideshow__autoplay,.slider-counter__link--dots {display: none;}",
+        ".svg-wrapper{height: 100%; width: 100%}"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
