@@ -388,7 +388,8 @@
       ],
       "custom_css": [
         ".card__content {display: none;}",
-        ".page-width {width: 100%; padding: 0; margin: 0;}"
+        ".page-width {width: 100%; padding: 0; margin: 0;}",
+        ".grid {column-gap: 0; width: 100%;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
