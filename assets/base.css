@@ -3713,8 +3713,6 @@ h1,h2,h3,h4,h5,
 /*BOTONES*/
 
 .button{
-  background-color: #542349;
-  color: #eadfcd;
   border-radius: 999px;
   transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
   --color-button-text: none;
