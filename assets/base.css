@@ -3689,6 +3689,10 @@ h3.h5 {
   font-size: calc(var(--font-heading-scale) * 1.7rem);
 }
 
+h3.a{
+  font-size: calc(var(--font-heading-scale) * 2rem);
+}
+
 /*SUBTITULOS*/
 .collection__description, .rich-text{
   font-size: calc(var(--font-heading-scale) * 2rem);
