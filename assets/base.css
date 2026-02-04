@@ -3713,33 +3713,25 @@ h1,h2,h3,h4,h5,
 /*BOTONES*/
 
 .button{
+  background-color: #542349;
+  color: #eadfcd;
+  border-radius: 999px;
   transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
   --color-button-text: none;
 }
 
 .button:hover{
-  transform: scale(1.05);
+  background-color: #ffa033 !important;
+  color: #542349 !important;
+  transform: scale(1.02) !important;
 }
 
 .collection__view-all .button{
-  background-color: #ffa033;
-  color: #542349;
+  background-color: #ffa033 !important;
+  color: #542349 !important;
 }
 
 .collection__view-all .button:hover{
-  background-color:rgba(255, 160, 51, 0.75);
-  transform: scale(1.05);
-}
-
-
-.quick-add__submit {
-  background-color: #542349;
-  color: #eadfcd;
-  border-radius: 999px;
-}
-
-.quick-add__submit:hover {
-  background-color: #ffa033;
-  color: #542349;
-  transform: scale(1.02) !important;
+  background-color:rgba(255, 160, 51, 0.75) !important;
+  transform: scale(1.05) !important;
 }
