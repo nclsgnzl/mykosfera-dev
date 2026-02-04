@@ -3710,3 +3710,13 @@ h1,h2,h3,h4,h5,
   padding-right: 0;
   padding-left: 0;
 }
+
+/*SECCION DESTACADOS HOME*/
+
+.collection__title.title-wrapper {
+  margin-bottom: 0 !important;
+}
+
+.card__information {
+  padding-top: 0;
+}
