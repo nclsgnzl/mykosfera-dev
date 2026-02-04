@@ -452,13 +452,7 @@
         "slide_XU3XtH",
         "slide_6NqNLh"
       ],
-      "custom_css": [
-        "/* Flechas del slideshow sobre las imágenes */.slideshow__controls,.slideshow__controls--top {position: absolute; inset: 0; z-index: 5; pointer-events: none;}",
-        "/* Habilitar clic solo en los botones */.slideshow__controls button {pointer-events: auto;}",
-        "/* Posición lateral */.slideshow .slider-button--prev,.slideshow .slider-button--next {position: absolute; top: 50%; transform: translateY(-50%);}",
-        "/* Izquierda */.slideshow .slider-button--prev {left: 20px;}",
-        "/* Derecha */.slideshow .slider-button--next {right: 20px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
