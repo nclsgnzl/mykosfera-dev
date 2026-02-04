@@ -3670,6 +3670,7 @@ details-disclosure>details {
   font-family: BlissPro !important;
 }
 
+/*TITULOS*/
 h1,h2,h3,h4,h5,
 .h0,.h1,.h2,.h3,.h4,.h5 {
   font-family: "Vend Sans", sans-serif !important;
@@ -3677,9 +3678,8 @@ h1,h2,h3,h4,h5,
   font-weight: 500 !important;
 }
 
-/*TITULOS*/
+/*TITULO TARJETA*/
 .card__information .card__heading{
-  font-size: calc(var(--font-heading-scale) * 2rem);
   font-weight: 500 !important;
 }
 
@@ -3690,9 +3690,10 @@ h1,h2,h3,h4,h5,
   font-weight: 500;
 }
 
-.h5 {
+h3.h5 {
   font-family: BlissPro !important;
   font-weight: 500;
+  font-size: calc(var(--font-heading-scale) * 1.5rem);
 }
 
 /*PRECIOS*/
