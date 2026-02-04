@@ -252,15 +252,15 @@
           "shadow": "#79426a"
         }
       },
-      "scheme-54d1a27c-86a3-4be1-a7f6-bcb2e3129122": {
+      "scheme-81369892-c92a-4fa5-ac93-f60891fa27ef": {
         "settings": {
-          "background": "#eeeeee",
+          "background": "rgba(0,0,0,0)",
           "background_gradient": "",
-          "text": "#79426a",
-          "button": "#79426a",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#79426a",
-          "shadow": "#79426a"
+          "text": "#eadfcd",
+          "button": "#542349",
+          "button_label": "#eadfcd",
+          "secondary_button_label": "#542349",
+          "shadow": "#542349"
         }
       }
     }

@@ -407,6 +407,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "slideshow_3crP6D": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_XU3XtH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-WEB-3_90e3a5ba-02d3-4765-9a16-59455a38431c.jpg",
+            "heading": "Producción 100% regional",
+            "heading_size": "h1",
+            "subheading": "De la tierra a la tierra.",
+            "button_label": "Saber más",
+            "link": "shopify://pages/quienes-somos",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 40,
+            "color_scheme": "scheme-81369892-c92a-4fa5-ac93-f60891fa27ef",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6NqNLh": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-WEB-2_3300e1b8-0020-4d35-8a08-981bc84253d8.jpg",
+            "heading": "Somos una empresa circular y autosuficiente",
+            "heading_size": "h1",
+            "subheading": "Subproductos para tu bienestar",
+            "button_label": "Conoce nuestros productos",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 40,
+            "color_scheme": "scheme-81369892-c92a-4fa5-ac93-f60891fa27ef",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_XU3XtH",
+        "slide_6NqNLh"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "image_behavior": "ambient",
+        "show_text_below": true,
+        "accessibility_info": "Presentación de diapositivas sobre tu marca"
+      }
     }
   },
   "order": [
@@ -420,6 +476,7 @@
     "section-nosotros",
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx",
-    "collection_list_nDt4TA"
+    "collection_list_nDt4TA",
+    "slideshow_3crP6D"
   ]
 }
