@@ -224,10 +224,10 @@
           "background": "#eeeeee",
           "background_gradient": "",
           "text": "#282828",
-          "button": "#79426a",
-          "button_label": "#eeeeee",
-          "secondary_button_label": "#79426a",
-          "shadow": "#79426a"
+          "button": "#542349",
+          "button_label": "#eadfcd",
+          "secondary_button_label": "#542349",
+          "shadow": "#542349"
         }
       },
       "scheme-e7e7aef6-fdcc-408b-965d-ee6aea161d00": {
