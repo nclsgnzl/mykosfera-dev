@@ -31,6 +31,8 @@
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
 >
+  <div class="swiper-button-prev"><a></a></div>
+  <div class="swiper-button-next"><a></a></div>
   {%- if section.settings.auto_rotate and section.blocks.size > 1 -%}
     <div class="slideshow__controls slideshow__controls--top slider-buttons{% if section.settings.show_text_below %} slideshow__controls--border-radius-mobile{% endif %}">
       <button
