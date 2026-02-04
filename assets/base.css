@@ -3722,15 +3722,12 @@ h3.h5 {
   --color-button-text: none;
 }
 
-.button:hover{
+.button:not(:disabled):hover{
   background-color: #ffa033;
   color: #542349;
   transform: scale(1.08);
 }
 
-.button:disabled{
-  hover: not-allowed !important;
-}
 .collection__view-all .button{
   background-color: #ffa033 !important;
   color: #542349 !important;
