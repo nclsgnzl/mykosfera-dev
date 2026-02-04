@@ -31,7 +31,8 @@
       "custom_css": [
         "h2 {font-family: Vend Sans !important; font-weight: bold !important; font-size: 1.6rem; color: #542349;}",
         "span,select {font-weight: bold; font-size: 1.6rem;}",
-        ".active-facets__button-inner {color: #eadfcd; transform: none; box-shadow: 0 0 0 0;}"
+        ".active-facets__button-inner {color: #eadfcd; transform: none; box-shadow: 0 0 0 0;}",
+        ".mobile-facets__open{color: #542349;}"
       ],
       "settings": {
         "products_per_page": 16,
