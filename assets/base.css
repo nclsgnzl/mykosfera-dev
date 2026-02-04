@@ -3689,7 +3689,7 @@ h3.h5 {
   font-size: calc(var(--font-heading-scale) * 1.7rem);
 }
 
-.collection-card-wrapper{
+.collection-card-wrapper .card .card__inner .card__content{
   font-size: calc(var(--font-heading-scale) * 2rem) !important;
 }
 
