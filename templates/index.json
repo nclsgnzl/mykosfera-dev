@@ -173,7 +173,7 @@
         "featured_collection_axgrbd"
       ],
       "custom_css": [
-        "h3{color: #79426A;}"
+        "h3 {color: #79426a;}"
       ],
       "settings": {
         "title": "",
@@ -387,7 +387,8 @@
         "featured_collection_QxxNUb"
       ],
       "custom_css": [
-        ".card__content {display: none;}"
+        ".card__content {display: none;}",
+        ".page-width {width: 100%; padding: 0; margin: 0;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
