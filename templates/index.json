@@ -172,6 +172,9 @@
         "featured_collection_ffYnqW",
         "featured_collection_axgrbd"
       ],
+      "custom_css": [
+        "h3{color: #79426A;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -382,6 +385,9 @@
         "featured_collection_Ex93jz",
         "featured_collection_VUGKcb",
         "featured_collection_QxxNUb"
+      ],
+      "custom_css": [
+        ".card__content {display: none;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
