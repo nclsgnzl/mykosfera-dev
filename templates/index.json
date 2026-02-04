@@ -392,7 +392,7 @@
         "slider-component {column-gap: 0; width: 100%;}",
         "ul {padding: 0;}",
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important; --collection-card-shadow-vertical-offset: 0;}",
-        ".card,.collection-card-wrapper {box-shadow: none !important;}"
+        "card{--shadow-horizontal-offset: none; box-shadow: none;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
