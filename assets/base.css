@@ -3737,6 +3737,6 @@ h3.h5 {
   background-color:rgba(255, 160, 51, 0.75) !important;
 }
 
-.quick-add__submit:hover {
+.quick-add__submit:not(:disabled):hover {
   transform: scale(1.02) !important;
 }
