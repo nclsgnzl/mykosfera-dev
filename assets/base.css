@@ -3715,8 +3715,8 @@ h1,h2,h3,h4,h5,
 .collection__view-all .button{
   background-color: #ffa033;
   color: #542349;
-  border: 0;
-  transform: scale(1.02);
+  --color-button-text: none;
+  transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
 }
 
 .collection__view-all .button:hover{
