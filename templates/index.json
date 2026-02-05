@@ -110,7 +110,7 @@
             "image": "shopify://shop_images/FOTO-WEB-3_90e3a5ba-02d3-4765-9a16-59455a38431c.jpg",
             "heading": "Producción 100% regional",
             "heading_size": "h1",
-            "subheading": "De la tierra a la tierra.",
+            "subheading": "De la tierra a la tierra",
             "button_label": "Conócenos",
             "link": "shopify://pages/quienes-somos",
             "button_style_secondary": false,
@@ -161,7 +161,7 @@
         "slide_height": "large",
         "slider_visual": "dots",
         "auto_rotate": true,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "image_behavior": "ambient",
         "show_text_below": false,
         "accessibility_info": "Presentación de diapositivas sobre tu marca"
