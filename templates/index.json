@@ -148,10 +148,10 @@
       ],
       "custom_css": [
         "slideshow-component {position: relative;}",
-        ".slideshow__controls--top {position: absolute; top: 50%; width: 100vw; transform: translateY(-50%); display: flex; justify-content: space-between; pointer-events: none; z-index: 10; border: 0px;}",
+        ".slideshow__controls--top {position: absolute; top: 50%; width: 100%; transform: translateY(-50%); display: flex; justify-content: space-between; pointer-events: none; z-index: 10; border: 0px;}",
         ".slider-button {pointer-events: auto; margin: 0 0.5rem;}",
-        ".slideshow__controls--top svg {color: #eadfcd; height: 10rem;}",
-        ".slideshow__controls--top svg:hover {color: #79426a;}",
+        ".slideshow__controls--top svg {color: rgba(234, 223, 205, 0.6); height: 100%; width: 100%;}",
+        ".slideshow__controls--top svg:hover {color: #eadfcd;}",
         ".slideshow__autoplay,.slider-counter__link--dots {display: none;}",
         ".svg-wrapper {height: 100%; width: 100%;}"
       ],
