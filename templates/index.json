@@ -503,7 +503,7 @@
             "image": "shopify://shop_images/reishi-700x540-1.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "a",
             "link": "shopify://collections/reishi"
           }
         },
@@ -532,6 +532,9 @@
         "column_NpCz79",
         "column_JcfXFm",
         "column_BNYjF7"
+      ],
+      "custom_css": [
+        ".card__content {opacity: 0; pointer-events: none;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
