@@ -471,6 +471,7 @@
         "featured_collection_VUGKcb",
         "featured_collection_QxxNUb"
       ],
+      "disabled": true,
       "custom_css": [
         ".collection-list-wrapper {--page-width: 100%;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
@@ -492,6 +493,74 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_Hp9bGH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mMenKm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/reishi-700x540-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/reishi"
+          }
+        },
+        "column_pX7EGh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Cordyceps-Militaris-700x495-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/cordyceps-militaris"
+          }
+        },
+        "column_Tbcenb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Melena-de-Leon-300x225_6cb09cb9-dc32-4b19-a118-a5534e7d9195.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/melena-de-leon"
+          }
+        },
+        "column_x3atbg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cola-de-pavo-700x540-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/cola-de-pavo"
+          }
+        }
+      },
+      "block_order": [
+        "column_mMenKm",
+        "column_pX7EGh",
+        "column_Tbcenb",
+        "column_x3atbg"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Varias columnas",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -506,6 +575,7 @@
     "section-nosotros",
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx",
-    "collection_list_nDt4TA"
+    "collection_list_nDt4TA",
+    "multicolumn_Hp9bGH"
   ]
 }
