@@ -487,7 +487,8 @@
         "ul {padding: 0;}",
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important; --collection-card-shadow-vertical-offset: 0; row-gap: 0;}",
         "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
-        ".card__content{opacity: 0;}"
+        ".card {position: relative;}",
+        ".card__content a {position: absolute; inset: 0; z-index: 2; text-indent: -9999px; /* oculta el texto */}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
