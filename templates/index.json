@@ -411,6 +411,24 @@
     "slideshow_3crP6D": {
       "type": "slideshow",
       "blocks": {
+        "slide_bbqAkT": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/slide_final_planta_marchigue-100.jpg",
+            "heading": "Hecho en Chile",
+            "heading_size": "h1",
+            "subheading": "Desde Marchigüe a tu casa",
+            "button_label": "Saber más",
+            "link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 40,
+            "color_scheme": "scheme-81369892-c92a-4fa5-ac93-f60891fa27ef",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_XU3XtH": {
           "type": "slide",
           "settings": {
@@ -418,7 +436,7 @@
             "heading": "Producción 100% regional",
             "heading_size": "h1",
             "subheading": "De la tierra a la tierra.",
-            "button_label": "Saber más",
+            "button_label": "Conócenos",
             "link": "shopify://pages/quienes-somos",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -449,6 +467,7 @@
         }
       },
       "block_order": [
+        "slide_bbqAkT",
         "slide_XU3XtH",
         "slide_6NqNLh"
       ],
