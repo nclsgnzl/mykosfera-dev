@@ -493,6 +493,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_NfnH9Q": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_NpCz79": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/reishi-700x540-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/reishi"
+          }
+        },
+        "column_JcfXFm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Cordyceps-Militaris-700x495-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/cordyceps-militaris"
+          }
+        },
+        "column_BNYjF7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/cola-de-pavo-700x540-1.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify://collections/cola-de-pavo"
+          }
+        }
+      },
+      "block_order": [
+        "column_NpCz79",
+        "column_JcfXFm",
+        "column_BNYjF7"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Varias columnas",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -507,6 +564,7 @@
     "section-nosotros",
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx",
-    "collection_list_nDt4TA"
+    "collection_list_nDt4TA",
+    "multicolumn_NfnH9Q"
   ]
 }
