@@ -481,6 +481,7 @@
         "featured_collection_VUGKcb",
         "featured_collection_QxxNUb"
       ],
+      "disabled": true,
       "custom_css": [
         ".collection-list-wrapper {--page-width: 100%; background: transparent;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
@@ -554,6 +555,7 @@
         "column_Tbcenb",
         "column_x3atbg"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
