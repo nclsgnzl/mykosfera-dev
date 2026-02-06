@@ -267,4 +267,13 @@ img {
   height: 100%;
   object-fit: cover;
   display: block;
+  overflow-clip-margin: none;
+}
+.page-width {
+  width: 100%;
+  padding-inline: 0;
+  margin: 0;
+}
+multicolumn-list {
+  padding: 0;
 }
