@@ -481,7 +481,6 @@
         "featured_collection_VUGKcb",
         "featured_collection_QxxNUb"
       ],
-      "disabled": true,
       "custom_css": [
         ".collection-list-wrapper {--page-width: 100%; background: transparent;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
@@ -524,7 +523,7 @@
             "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "a",
             "link": "shopify://collections/cordyceps-militaris"
           }
         },
@@ -534,7 +533,7 @@
             "image": "shopify://shop_images/Melena-de-Leon-300x225_6cb09cb9-dc32-4b19-a118-a5534e7d9195.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "a",
             "link": "shopify://collections/melena-de-leon"
           }
         },
@@ -544,7 +543,7 @@
             "image": "shopify://shop_images/cola-de-pavo-700x540-1.jpg",
             "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "a",
             "link": "shopify://collections/cola-de-pavo"
           }
         }
@@ -556,13 +555,13 @@
         "column_x3atbg"
       ],
       "custom_css": [
+        ".multicolumn-card__image-wrapper {position: relative;}",
+        ".multicolumn-card__info {position: absolute; inset: 0; z-index: 5; opacity: 0;}",
+        ".multicolumn-card__info a {display: block; width: 100%; height: 100%;}",
+        ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
-        "ul {padding: 0;}",
-        ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important; --collection-card-shadow-vertical-offset: 0; row-gap: 0;}",
-        "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
-        ".card {position: relative;}",
-        ".card__content {position: absolute; z-index: 2; inset: 0; text-indent: -9999px; padding: 0;}"
+        "img {width: 100%; height: 100%; object-fit: cover; display: block;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
