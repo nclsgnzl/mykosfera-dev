@@ -231,3 +231,40 @@
     display: list-item;
   }
 }
+
+
+/*ESTILOS ADICIONALES*/
+.multicolumn-card__image-wrapper {
+  position: relative;
+}
+.multicolumn-card__info {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  opacity: 0;
+}
+.multicolumn-card__info a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.grid {
+  --grid-desktop-horizontal-spacing: 0px !important;
+  --grid-mobile-horizontal-spacing: 0px !important;
+  --grid-mobile-vertical-spacing: 0px !important;
+}
+.multicolumn {
+  --page-width: 100%;
+  background: transparent;
+}
+.page-width {
+  width: 100%;
+  padding-inline: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
