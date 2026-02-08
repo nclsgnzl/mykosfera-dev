@@ -359,6 +359,7 @@
         "featured_collection_ffYnqW",
         "featured_collection_axgrbd"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {color: #79426a;}"
       ],
