@@ -276,11 +276,11 @@
       ],
       "custom_css": [
         ".multicolumn-card__image-wrapper {margin-block-start: 0; position: relative;}",
-        ".multicolumn-card__info {padding-top: 0; z-index: 5;}",
+        ".multicolumn-card__info {z-index: 5;}",
         "a {color: #79426a; font-size: calc(var(--font-heading-scale) * 1.8rem); font-family: Vend Sans; font-weight: 500;}",
         "a:hover {text-decoration: underline;}",
         ".multicolumn-card {position: relative;}",
-        ".multicolumn-card__info a {position: absolute; inset: 0; display: inline-flex; align-items: flex-end; padding: inherit; padding-bottom: 0rem; text-align: center;}",
+        ".multicolumn-card__info a {position: absolute; inset: 0; display: inline-flex; align-items: flex-end; padding: inherit; text-align: center;}",
         "span {align-items: flex-end;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
