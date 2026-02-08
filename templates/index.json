@@ -505,6 +505,30 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_Vhxxxd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nx7VQL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Atiende tu necesidad</strong>",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nx7VQL"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
     "multicolumn_Hp9bGH": {
       "type": "multicolumn",
       "blocks": {
@@ -559,13 +583,14 @@
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
-        "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
+        "img {width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
-        ".multicolumn-list {padding: 0 !important;}"
+        ".multicolumn-list {padding: 0 !important;}",
+        "img:hover {transform: scale(1.07) !important;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Varias columnas",
+        "title": "",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "square",
@@ -577,7 +602,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 12,
         "padding_bottom": 36
       }
     }
@@ -595,6 +620,7 @@
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx",
     "collection_list_nDt4TA",
+    "rich_text_Vhxxxd",
     "multicolumn_Hp9bGH"
   ]
 }
