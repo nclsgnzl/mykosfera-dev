@@ -221,6 +221,7 @@
         "heading_43hizY",
         "text_KR73Hb"
       ],
+      "custom_css": [],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
@@ -274,9 +275,10 @@
         "column_gfdrGU"
       ],
       "custom_css": [
-        ".multicolumn-card__image-wrapper {margin-block-start: 0;}",
+        ".multicolumn-card__image-wrapper {margin-block-start: 0; position: relative;}",
         ".multicolumn-card__info {padding-top: 0; z-index: 5;}",
-        "a {color: #79426a; font-size: calc(var(--font-heading-scale) * 1.8rem); font-family: Vend Sans; font-weight: 500;}"
+        "a {color: #79426a; font-size: calc(var(--font-heading-scale) * 1.8rem); font-family: Vend Sans; font-weight: 500;}",
+        "a:hover {text-decoration: underline;}"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
