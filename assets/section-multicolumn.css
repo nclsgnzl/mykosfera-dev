@@ -259,6 +259,6 @@
   will-change: transform;
 }
 
-.multicolumn-card .multicolumn-card__image:hover {
+.multicolumn-card:hover .multicolumn-card__image {
   transform: scale(1.08);
 }
