@@ -237,12 +237,7 @@
 .multicolumn-card__image-wrapper {
   position: relative;
 }
-.multicolumn-card__info {
-  position: absolute;
-  inset: 0;
-  z-index: 5;
-  opacity: 0;
-}
+
 .multicolumn-card__info a {
   display: block;
   width: 100%;
