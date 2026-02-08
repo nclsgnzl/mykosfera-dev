@@ -254,5 +254,5 @@
 }
 
 .multicolumn-card:hover .multicolumn-card__image {
-  transform: scale(1.04);
+  transform: scale(1.02);
 }
