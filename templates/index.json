@@ -682,6 +682,7 @@
         "column_Tbcenb",
         "column_x3atbg"
       ],
+      "disabled": true,
       "custom_css": [
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
@@ -690,7 +691,7 @@
         ".multicolumn-list {padding: 0 !important;}",
         ".multicolumn-card__info {position: absolute; inset: 0; z-index: 5; opacity: 0;}"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Beneficios",
       "settings": {
         "title": "",
         "heading_size": "h2",
