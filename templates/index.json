@@ -519,6 +519,7 @@
       "block_order": [
         "heading_nx7VQL"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -579,11 +580,12 @@
         "column_Tbcenb",
         "column_x3atbg"
       ],
+      "disabled": true,
       "custom_css": [
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
-        "img {width: 100%; height: 100%; object-fit: cover; display: block; transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}",
+        "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
         ".page-width {width: 100%; padding-inline: 0; margin: 0;}",
         ".multicolumn-list {padding: 0 !important;}"
       ],
@@ -604,6 +606,67 @@
         "padding_top": 12,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_4dQER8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bxDbfr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-18.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Café",
+            "link": ""
+          }
+        },
+        "column_bQYczt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-9.jpg",
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gfdrGU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-11.jpg",
+            "title": "Columna",
+            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_bxDbfr",
+        "column_bQYczt",
+        "column_gfdrGU"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {color: #79426a;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "<strong>Varias columnas</strong>",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -620,6 +683,7 @@
     "collapsible_content_BaPTEx",
     "collection_list_nDt4TA",
     "rich_text_Vhxxxd",
-    "multicolumn_Hp9bGH"
+    "multicolumn_Hp9bGH",
+    "multicolumn_4dQER8"
   ]
 }
