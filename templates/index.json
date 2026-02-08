@@ -200,6 +200,102 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_yWcJTc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_43hizY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Nuestros Productos</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_KR73Hb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Consume hongos de la manera que más te guste, con los diferentes formatos que Mykósfera te ofrece.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_43hizY",
+        "text_KR73Hb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_4dQER8": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bxDbfr": {
+          "type": "column",
+          "name": "Café",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-18.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Café",
+            "link": "https://mykosfera.cl/collections/all?filter.p.product_type=Caf%C3%A9&sort_by=title-ascending"
+          }
+        },
+        "column_bQYczt": {
+          "type": "column",
+          "name": "Cápsulas",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-9.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Cápsulas",
+            "link": "https://mykosfera.cl/collections/all?filter.p.product_type=C%C3%A1psulas&sort_by=title-ascending"
+          }
+        },
+        "column_gfdrGU": {
+          "type": "column",
+          "name": "Extractos",
+          "settings": {
+            "image": "shopify://shop_images/FOTO-11.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Extractos",
+            "link": "https://mykosfera.cl/collections/all?filter.p.product_type=Extractos&sort_by=title-ascending"
+          }
+        }
+      },
+      "block_order": [
+        "column_bxDbfr",
+        "column_bQYczt",
+        "column_gfdrGU"
+      ],
+      "custom_css": [
+        ".multicolumn-card__image-wrapper {margin-block-start: 0;}",
+        ".multicolumn-card__info {padding-top: 0; z-index: 5;}",
+        "a {color: #79426a; font-size: calc(var(--font-heading-scale) * 1.8rem); font-family: Vend Sans; font-weight: 500;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_m76mRC": {
       "type": "rich-text",
       "blocks": {
@@ -221,6 +317,7 @@
         "heading_Y9edAR",
         "text_gKDgM3"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -257,6 +354,7 @@
         "featured_collection_ffYnqW",
         "featured_collection_axgrbd"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {color: #79426a;}"
       ],
@@ -580,6 +678,7 @@
         "column_Tbcenb",
         "column_x3atbg"
       ],
+      "disabled": true,
       "custom_css": [
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
@@ -605,72 +704,14 @@
         "padding_top": 12,
         "padding_bottom": 36
       }
-    },
-    "multicolumn_4dQER8": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_bxDbfr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FOTO-18.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "Café",
-            "link": ""
-          }
-        },
-        "column_bQYczt": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FOTO-9.jpg",
-            "title": "Columna",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_gfdrGU": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/FOTO-11.jpg",
-            "title": "Columna",
-            "text": "<p>Vincula un texto con una imagen para atraer la atención hacia tu producto, colección o artículo de blog seleccionados. Agrega detalles sobre disponibilidad y estilo, o incluso ofrece una reseña.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_bxDbfr",
-        "column_bQYczt",
-        "column_gfdrGU"
-      ],
-      "custom_css": [
-        "h3 {color: #79426a;}"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "<strong>Varias columnas</strong>",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "slider-banner",
     "slideshow_3crP6D",
     "featured_collection_jpTQJa",
+    "rich_text_yWcJTc",
+    "multicolumn_4dQER8",
     "rich_text_m76mRC",
     "collection_list_3iwkw8",
     "featured_collection",
@@ -681,7 +722,6 @@
     "collapsible_content_BaPTEx",
     "collection_list_nDt4TA",
     "rich_text_Vhxxxd",
-    "multicolumn_Hp9bGH",
-    "multicolumn_4dQER8"
+    "multicolumn_Hp9bGH"
   ]
 }
