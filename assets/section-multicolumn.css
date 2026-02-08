@@ -258,11 +258,6 @@
   transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1) !important;
 }
 
-.multicolumn-card__image {
-  transition-delay: 0.05s !important;
-}
-
-
 .multicolumn-card:hover .multicolumn-card__image {
   transform: scale(1.08);
 }
