@@ -254,11 +254,11 @@
 }
 
 /* 2. Animación suave en la imagen */
-.multicolumn-card{
+.multicolumn-card__image {
   transition: transform 0.4s ease;
   will-change: transform;
 }
 
-.multicolumn-card:hover{
+.multicolumn-card .media:hover{
   transform: scale(1.08);
 }
