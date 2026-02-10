@@ -155,7 +155,7 @@
         ".slideshow__autoplay,.slider-counter__link--dots {display: none;}",
         ".svg-wrapper {height: 100%; width: 100%;}"
       ],
-      "name": "t:sections.slideshow.presets.name",
+      "name": "Banner flechas",
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -282,7 +282,7 @@
         ".multicolumn-card__info a {position: absolute; inset: 0; display: inline-flex; align-items: flex-end; padding: inherit; text-align: center;}",
         "span {align-items: flex-end;}"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Multicolumna Nuestros productos ",
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -298,37 +298,6 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_m76mRC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Y9edAR": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Nuestros Productos</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_gKDgM3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Consume hongos de la manera que más te guste, con los diferentes formatos que Mykósfera te ofrece.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Y9edAR",
-        "text_gKDgM3"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
-        "full_width": true,
-        "padding_top": 44,
-        "padding_bottom": 32
       }
     },
     "collection_list_3iwkw8": {
@@ -359,9 +328,7 @@
         "featured_collection_axgrbd"
       ],
       "disabled": true,
-      "custom_css": [
-        "h3 {color: #79426a;}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -406,6 +373,7 @@
     },
     "featured_collection_WWzPpB": {
       "type": "featured-collection",
+      "name": "Colección Los favoritos",
       "settings": {
         "title": "<strong>Los favoritos</strong>",
         "heading_size": "h1",
@@ -435,6 +403,7 @@
     "featured_collection_h8AyiW": {
       "type": "featured-collection",
       "disabled": true,
+      "name": "Colección Match perfecto",
       "settings": {
         "title": "<strong>Tu Match Perfecto</strong>",
         "heading_size": "h1",
@@ -534,6 +503,7 @@
         "collapsible_row_HmBH9j"
       ],
       "disabled": true,
+      "name": "Preguntas frecuentes",
       "settings": {
         "caption": "",
         "heading": "Preguntas Frecuentes",
@@ -593,7 +563,7 @@
         ".card {position: relative;}",
         ".card__content {position: absolute; z-index: 2; inset: 0; text-indent: -9999px; padding: 0;}"
       ],
-      "name": "t:sections.collection-list.presets.name",
+      "name": "Lista coleccion Beneficios",
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -639,40 +609,40 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Gemini_Generated_Image_beiccrbeiccrbeic.png",
-            "title": "",
+            "title": "Energía",
             "text": "",
             "link_label": "a",
-            "link": "https://mykosfera.cl/collections/all?filter.p.product_type=Extractos&sort_by=title-ascending"
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Energ%C3%ADa&sort_by=title-ascending"
           }
         },
         "column_pX7EGh": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
-            "title": "",
+            "title": "Enfoque",
             "text": "",
             "link_label": "a",
-            "link": "shopify://collections/cordyceps-militaris"
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Enfoque&sort_by=title-ascending"
           }
         },
         "column_Tbcenb": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Melena-de-Leon-300x225_6cb09cb9-dc32-4b19-a118-a5534e7d9195.jpg",
-            "title": "",
+            "title": "Calma",
             "text": "",
             "link_label": "a",
-            "link": "shopify://collections/melena-de-leon"
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Calma&sort_by=title-ascending"
           }
         },
         "column_x3atbg": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/cola-de-pavo-700x540-1.jpg",
-            "title": "",
+            "title": "Inmunidad",
             "text": "",
             "link_label": "a",
-            "link": "shopify://collections/cola-de-pavo"
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Inmunidad&sort_by=title-ascending"
           }
         }
       },
@@ -682,7 +652,6 @@
         "column_Tbcenb",
         "column_x3atbg"
       ],
-      "disabled": true,
       "custom_css": [
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
@@ -716,7 +685,6 @@
     "featured_collection_jpTQJa",
     "rich_text_yWcJTc",
     "multicolumn_4dQER8",
-    "rich_text_m76mRC",
     "collection_list_3iwkw8",
     "featured_collection",
     "featured_collection_WWzPpB",
