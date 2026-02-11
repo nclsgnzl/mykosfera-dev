@@ -3746,7 +3746,7 @@ h1{
 }
 
 /*IMAGENES*/
-.card{
+.card_wrapper{
   width: 80% !important;
   height: 80% !important;
 }
