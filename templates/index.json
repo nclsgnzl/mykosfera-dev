@@ -176,7 +176,7 @@
       ],
       "settings": {
         "title": "<strong>Destacados del Mundo Fungi</strong>",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "<p>Nuestra selección de productos parta los amantes del Mundo Fungi</p>",
         "show_description": true,
         "description_style": "body",
@@ -207,7 +207,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Nuestros Productos</strong>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_KR73Hb": {
@@ -376,7 +376,7 @@
       "name": "Colección Los favoritos",
       "settings": {
         "title": "<strong>Los favoritos</strong>",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "description": "<p>Convierte el Melena de León, el Reishi, el Cordyceps o el Cola de Pavo en tus favoritos para transformar tu día a día. ¡Siente la diferencia!</p>",
         "show_description": false,
         "description_style": "body",
@@ -443,7 +443,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "<strong>Entérate sobre nuestras acciones y publicaciones</strong>",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "blog": "news",
         "post_limit": 3,
         "columns_desktop": 3,
@@ -652,6 +652,7 @@
         "column_Tbcenb",
         "column_x3atbg"
       ],
+      "disabled": true,
       "custom_css": [
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
