@@ -3732,12 +3732,12 @@ h1{
   transform: scale(1.08);
 }
 
-.button-primary{
+a.button--primary{
   background-color: #ffa033 !important;
   color: #542349 !important;
 }
 
-.button-primary:hover{
+a.button--primary:hover{
   background-color:rgba(255, 160, 51, 0.75) !important;
 }
 
