@@ -3746,3 +3746,10 @@ h1{
 }
 
 /*IMAGENES*/
+
+.card {
+  max-width: 80%;
+}
+.card-wrapper{
+  justify-items: center !important;
+}
