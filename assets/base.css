@@ -3746,7 +3746,7 @@ h1{
 }
 
 /*IMAGENES*/
-slider-component.page-width{
+.card{
   width: 80% !important;
   height: 80% !important;
 }
