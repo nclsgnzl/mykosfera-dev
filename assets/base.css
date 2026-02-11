@@ -3724,7 +3724,6 @@ h1{
   border-radius: 999px;
   transition: transform 0.6s ease, color 0.6s ease, opacity 0.6s ease;
   --color-button-text: none;
-  padding: 0 0 !important;
 }
 
 .button:not(:disabled):hover{
@@ -3744,4 +3743,9 @@ h1{
 
 .quick-add__submit:not(:disabled):hover {
   transform: scale(1.02) !important;
+}
+
+/*IMAGENES*/
+.card__media{
+  width: 80% !important;
 }
