@@ -3709,8 +3709,11 @@ h3.h5 {
   padding-right: 0;
   padding-left: 0;
 }
-h3,h5,h1{
+h3,h5{
   font-size: var(--font-heading-scale) !important;
+}
+h1{
+  font-size: calc(var(--font-heading-scale)*2) !important;
 }
 
 /*BOTONES*/
