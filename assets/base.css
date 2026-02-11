@@ -3748,8 +3748,9 @@ h1{
 /*IMAGENES*/
 
 slider-component.page-width {
-  width: 80%;
-  height: 80%;
+  width: 80% !important;
+  height: 80% !important;
+  justify-items: center !important;
 }
 .card-wrapper{
   justify-items: center !important;
