@@ -3747,11 +3747,17 @@ h1{
 
 /*IMAGENES*/
 
-slider-component.page-width {
-  width: 80% !important;
-  height: 80% !important;
-  justify-items: center !important;
+.card, .multicolumn-card {
+  width: 80%;
+  height: 80%;
 }
 .card-wrapper{
   justify-items: center !important;
 }
+
+/*MAS PEQUEÑO, CONDENSADO
+slider-component.page-width {
+  width: 80% !important;
+  height: 80% !important;
+  justify-items: center !important;
+}*/
