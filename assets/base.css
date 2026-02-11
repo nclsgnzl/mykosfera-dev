@@ -3732,12 +3732,12 @@ h1{
   transform: scale(1.08);
 }
 
-.collection__view-all .button,a.button--primary{
+.collection__view-all .button,.rich-text__buttons .a{
   background-color: #ffa033 !important;
   color: #542349 !important;
 }
 
-.collection__view-all .button:hover,a.button--primary:hover{
+.collection__view-all .button:hover,.rich-text__buttons .a:hover{
   background-color:rgba(255, 160, 51, 0.75) !important;
 }
 
