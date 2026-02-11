@@ -3747,7 +3747,7 @@ h1{
 
 /*IMAGENES*/
 
-.card, .multicolumn-card {
+slider-component.page-width {
   width: 80%;
   height: 80%;
 }
