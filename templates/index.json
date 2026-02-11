@@ -172,7 +172,8 @@
       "custom_css": [
         ".collection__title.title-wrapper {margin-bottom: 0 !important;}",
         ".card-wrapper .card .card__content .card__information {padding-top: 0 !important;}",
-        ".collection__view-all a:not(.link) {margin-top: 0 !important;}"
+        ".collection__view-all a:not(.link) {margin-top: 0 !important;}",
+        ".card {align-items: center !important;}"
       ],
       "settings": {
         "title": "<strong>Destacados del Mundo Fungi</strong>",
@@ -184,7 +185,7 @@
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
@@ -197,7 +198,35 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 28,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_TFpPhY": {
+      "type": "rich-text",
+      "blocks": {
+        "button_ykWUwQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ver todo",
+            "button_link": "https://mykosfera.cl/collections/all?sort_by=best-selling",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_ykWUwQ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
       }
     },
     "rich_text_yWcJTc": {
@@ -684,6 +713,7 @@
     "slider-banner",
     "slideshow_3crP6D",
     "featured_collection_jpTQJa",
+    "rich_text_TFpPhY",
     "rich_text_yWcJTc",
     "multicolumn_4dQER8",
     "collection_list_3iwkw8",
