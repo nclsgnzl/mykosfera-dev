@@ -3747,7 +3747,7 @@ h1{
 
 /*IMAGENES*/
 
-.card {
+.card, .multicolumn-card {
   width: 80%;
   height: 80%;
 }
