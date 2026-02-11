@@ -3686,7 +3686,7 @@ h1,h2,h3,h4,h5,
 h3.h5 {
   font-family: BlissPro !important;
   font-weight: 500;
-  font-size: calc(var(--font-heading-scale) * 1.7rem);
+  font-size: calc(var(--font-heading-scale) * 1.7rem) !important;
 }
 
 
