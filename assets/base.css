@@ -3710,7 +3710,7 @@ h3.h5 {
   padding-left: 0;
 }
 h3,h5{
-  font-size: var(--font-heading-scale)
+  font-size: var(--font-heading-scale) !important;
 }
 
 /*BOTONES*/
