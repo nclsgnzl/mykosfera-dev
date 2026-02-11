@@ -3746,6 +3746,7 @@ h1{
 }
 
 /*IMAGENES*/
-img{
+.card__media img{
   width: 80% !important;
+  height: 80% !important;
 }
