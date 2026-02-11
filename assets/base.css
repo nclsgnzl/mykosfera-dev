@@ -3747,7 +3747,7 @@ h1{
 
 /*IMAGENES*/
 
-.card, .multicolumn-card {
+.card, .multicolumn-card,.collection__title{
   width: 80%;
   height: 80%;
 }
