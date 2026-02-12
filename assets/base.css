@@ -3716,7 +3716,8 @@ h3,h5{
   font-size: var(--font-heading-scale) !important;
 }
 h1{
-  font-size: var(--font-heading-scale) !important;
+  font-size: calc(var(--font-heading-scale)*2.4rem) !important;
+  font-weight: bold !important;
 }
 
 /*BOTONES
