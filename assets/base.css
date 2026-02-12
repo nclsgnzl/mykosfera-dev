@@ -3809,7 +3809,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 }
 
 @media screen and (min-width: 750px) {
-    .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter, .colelction .page-width-desktop {
+    .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter, .collection .page-width-desktop {
         padding: 0 5rem !important;
     }
 }
