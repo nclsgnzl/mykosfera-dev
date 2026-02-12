@@ -3808,6 +3808,13 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   }
 }
 
+@media screen and (max-width: 990px) {
+  .title-wrapper--self-padded-tablet-down {
+      padding-left: 0;
+      padding-right: 0;
+  }
+}
+
 /*MAS PEQUEÑO, CONDENSADO
 slider-component.page-width {
   width: 80% !important;
