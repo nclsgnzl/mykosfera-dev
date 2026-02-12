@@ -3778,7 +3778,6 @@ h1{
 
 /*FONDO SOLIDO */
 .multicolumn, .blog{
-  background: solid !important;
   background-color: #eeeeee !important;
 }
 
