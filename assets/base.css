@@ -3747,7 +3747,7 @@ h1{
 
 /*MAS PEQUEÑO EN ESCRITORIO*/
 @media screen and (min-width: 1300px){
-  .card,.collection__title,.multicolumn .page-width, .rich-text__blocks{
+  .card,.collection__title,.multicolumn .page-width, .isolate{
     width: 80% !important;
     height: 80% !important;
   }
