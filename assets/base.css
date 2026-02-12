@@ -3792,10 +3792,9 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   }
   .card-wrapper{
     justify-items: center !important;
-    padding: 0 0 !important;
   }
-  .card{
-    
+  ul{
+    padding: 0 0 !important;
   }
 }
 
