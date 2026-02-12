@@ -3678,8 +3678,7 @@ h1,h2,h3,h4,h5,
   font-weight: 500 !important;
 }
 
-/*TITULO TARJETA
--------------------*/
+/*TITULO TARJETA*/
 .card__information .card__heading{
   font-weight: 500 !important;
 }
@@ -3691,15 +3690,13 @@ h3.h5 {
 }
 
 
-/*TEXTO SECUNDARIO HOME
-------------*/
+/*SUBTITULOS*/
 .collection__description, .rich-text{
   color: #282828;
   font-weight: 500;
 }
 
-/*PRECIOS
------------*/
+/*PRECIOS*/
 .card-information .price, .price .price__container{
   color:  #542349 !important;
   font-weight: bold;
@@ -3717,11 +3714,9 @@ h3,h5{
 }
 h1{
   font-size: calc(var(--font-heading-scale)*2.4rem) !important;
-  font-weight: bold !important;
 }
 
-/*BOTONES
-------------*/
+/*BOTONES*/
 
 .button{
   background-color: #542349;
@@ -3750,42 +3745,9 @@ h1{
   transform: scale(1.02) !important;
 }
 
-/*MULTICOLUMNA
----------------*/
-
-.multicolumn-card__image-wrapper {
-  position: relative;
-}
-
-.multicolumn-card__info a {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-/*ANIMACION IMAGENES*/
-.multicolumn-card__image-wrapper {
-  overflow: hidden;
-}
-
-.multicolumn-card__image {
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1) !important;
-}
-
-.multicolumn-card:hover .multicolumn-card__image {
-  transform: scale(1.02);
-}
-
-/*FONDO SOLIDO */
-.multicolumn, .blog{
-  background: solid !important;
-  background-color: #eeeeee !important;
-}
-
-/*-----------------
-RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
+/*MAS PEQUEÑO EN ESCRITORIO*/
 @media screen and (min-width: 1300px){
-  .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .multicolumn .page-width{
+  .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper{
     max-width: 80%;
     max-height: 80%;
     width:80%;
