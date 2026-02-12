@@ -3753,18 +3753,18 @@ h1{
 ---------------*/
 
 .multicolumn-card__image-wrapper {
-  position: relative;
+  position: relative !important;
 }
 
 .multicolumn-card__info a {
-  display: block;
-  width: 100%;
-  height: 100%;
+  display: block  !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /*ANIMACION IMAGENES*/
 .multicolumn-card__image-wrapper {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .multicolumn-card__image {
@@ -3772,7 +3772,7 @@ h1{
 }
 
 .multicolumn-card:hover .multicolumn-card__image {
-  transform: scale(1.02);
+  transform: scale(1.02) !important;
 }
 
 /*FONDO SOLIDO */
