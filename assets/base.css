@@ -3790,7 +3790,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
     width:80%;
     height:80%;
   }
-  .card-wrapper{
+  .card-wrapper, .element{
     justify-items: center !important;
   }
 }
