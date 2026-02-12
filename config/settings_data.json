@@ -45,7 +45,7 @@
     "card_style": "card",
     "card_image_padding": 0,
     "card_text_alignment": "left",
-    "card_color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+    "card_color_scheme": "scheme-09b5a1ae-7318-4b59-85a3-a723e453e077",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
     "card_corner_radius": 0,
@@ -261,6 +261,17 @@
           "button_label": "#eadfcd",
           "secondary_button_label": "#542349",
           "shadow": "#542349"
+        }
+      },
+      "scheme-09b5a1ae-7318-4b59-85a3-a723e453e077": {
+        "settings": {
+          "background": "rgba(0,0,0,0)",
+          "background_gradient": "",
+          "text": "#282828",
+          "button": "#282828",
+          "button_label": "#eeeeee",
+          "secondary_button_label": "#282828",
+          "shadow": "#282828"
         }
       }
     }
