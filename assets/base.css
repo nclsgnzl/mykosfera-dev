@@ -3815,7 +3815,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 }
 
 @media screen and (min-width: 990px) {
-    .title-wrapper-with-link {
+    .title-wrapper-with-link, .slider-mobile-gutter {
         padding: 0 0 !important;
     }
 }
