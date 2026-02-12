@@ -3776,7 +3776,7 @@ h1{
 }
 
 /*FONDO SOLIDO */
-.multicolumn div, .blog div{
+.multicolumn, .blog{
   background-color: #eeeeee !important;
 }
 
