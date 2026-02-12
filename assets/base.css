@@ -3784,7 +3784,7 @@ h1{
 /*-----------------
 RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 @media screen and (min-width: 1300px){
-  .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .multicolumn .page-width, #shopify-section-template--24019639206194__section-nosotros{
+  .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .multicolumn .page-width{
     max-width: 80%;
     max-height: 80%;
     width:80%;
