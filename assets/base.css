@@ -3793,6 +3793,9 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   .card-wrapper{
     justify-items: center !important;
   }
+  .card{
+    padding: 0 0 !important;
+  }
 }
 
 @media screen and (max-width: 1300px){
