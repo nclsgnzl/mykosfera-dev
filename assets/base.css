@@ -3745,7 +3745,7 @@ h1{
   transform: scale(1.02) !important;
 }
 
-/*MAS PEQUEÑO EN ESCRITORIO*/
+/*RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 @media screen and (min-width: 1300px){
   .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper{
     max-width: 80%;
