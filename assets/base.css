@@ -3748,8 +3748,8 @@ h1{
 /*MAS PEQUEÑO EN ESCRITORIO*/
 @media screen and (min-width: 1300px){
   .card,.collection__title,.multicolumn .page-width, .rich-text__heading{
-    width: 80% !important;
-    height: 80% !important;
+    max-width: 80%;
+    max-height: 80%;
   }
   .card-wrapper{
     justify-items: center !important;
