@@ -3776,7 +3776,8 @@ h1{
 }
 
 /*FONDO SOLIDO */
-.multicolumn, .blog .page-width{
+.multicolumn.background-none, .blog .page-width{
+  all: unset;
   background-color: #eeeeee !important;
 }
 
