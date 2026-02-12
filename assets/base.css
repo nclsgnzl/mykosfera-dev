@@ -3793,6 +3793,9 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   .card-wrapper{
     justify-items: center !important;
   }
+  .contains-card--product {
+    padding: 0 0 !important;
+  }
 }
 
 @media screen and (max-width: 1300px){
@@ -3803,9 +3806,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
     height:100% !important;
   }
   
-  .contains-card--product {
-    padding: 0 0 !important;
-  }
+  
 }
 
 @media screen and (min-width: 750px) {
