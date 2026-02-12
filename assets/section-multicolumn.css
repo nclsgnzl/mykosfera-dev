@@ -256,3 +256,8 @@
 .multicolumn-card:hover .multicolumn-card__image {
   transform: scale(1.02);
 }
+
+/*FONDO SOLIDO */
+.multicolumn div{
+  background-color: #eeeeee !important;
+}
