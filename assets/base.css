@@ -3806,6 +3806,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   .contains-card--product {
     padding: 0 !important;
 }
+}
 
 @media screen and (max-width: 990px) {
   .title-wrapper--self-padded-tablet-down {
