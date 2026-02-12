@@ -3814,6 +3814,12 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
     }
 }
 
+@media screen and (min-width: 990px) {
+    .title-wrapper-with-link {
+        padding: 0 0 !important;
+    }
+}
+
 /*MAS PEQUEÑO, CONDENSADO
 slider-component.page-width {
   width: 80% !important;
