@@ -3802,6 +3802,9 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
     width:100% !important;
     height:100% !important;
   }
+  
+  .contains-card--product {
+    padding: 0 !important;
 }
 
 @media screen and (max-width: 990px) {
