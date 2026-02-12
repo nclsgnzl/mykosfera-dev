@@ -3793,7 +3793,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   .card-wrapper{
     justify-items: center !important;
   }
-  .contains-card--product {
+  .collection .page-width-desktop  {
     padding: 0 0 !important;
   }
 }
