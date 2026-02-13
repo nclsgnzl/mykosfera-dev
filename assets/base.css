@@ -3776,7 +3776,7 @@ h3.h5 {
 /*-----------------
 RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 @media screen and (min-width: 1300px){
-  .card,.collection__title,.multicolumn, .rich-text__wrapper{
+  .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop{
     max-width: 80% !important;
     max-height: 80% !important;
     width:80% !important;
@@ -3796,17 +3796,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   }
 }
 
-@media screen and (min-width: 750px) {
-  .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter, .collection  {
-      padding: 0 5rem !important;
-  }
-}
 
-@media screen and (min-width: 990px) {
-  .title-wrapper-with-link, .slider-mobile-gutter {
-      padding: 0 0 !important;
-  }
-}
 
 /*MAS PEQUEÑO, CONDENSADO
 slider-component.page-width {
