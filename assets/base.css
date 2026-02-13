@@ -3776,7 +3776,7 @@ h3.h5 {
 /*-----------------
 RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 @media screen and (min-width: 1300px){
-  .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .multicolumn .page-width{
+  .card,.collection__title,.multicolumn, .rich-text__wrapper{
     max-width: 80% !important;
     max-height: 80% !important;
     width:80% !important;
@@ -3797,7 +3797,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 }
 
 @media screen and (min-width: 750px) {
-  .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter, .collection .page-width-desktop {
+  .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter, .collection  {
       padding: 0 5rem !important;
   }
 }
