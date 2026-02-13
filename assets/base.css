@@ -3797,7 +3797,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
 }
 
 @media screen and (min-width: 750px) {
-  .title-wrapper--self-padded-tablet-down, .collection .page-width-desktop, .element .about-us-info {
+  .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter ul, .collection .page-width-desktop, .element .about-us-info {
     padding: 0 5rem !important;
   }
   .element .about-us-info{
