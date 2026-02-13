@@ -16,7 +16,6 @@
   .element h1 {
     color: white;
     margin-top: 10px;
-    margin-left 0;
   }
 
   .element p {
@@ -26,8 +25,8 @@
   .element .about-us-info{
     width: 80%;
     max-width: 80%;
+    
     margin: 0 auto;
-    justify-content: center;
   }
 
   @media (min-width: 300px) and (max-width: 989px) {
@@ -51,7 +50,7 @@
     >
       
     <h1 class="text-title">{{ section.settings.title_page }}</h1>
-    <div class="text-nosotros">
+    <div style="width: 50%" class="text-nosotros">
       <p>{{ section.settings.description_paragraph }}</p>
     </div>
   </div>
