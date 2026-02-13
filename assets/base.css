@@ -3782,7 +3782,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
     width:80% !important;
     height:80% !important;
   }
-  .card-wrapper{
+  .card-wrapper, .element{
     justify-items: center !important;
   }
 }
