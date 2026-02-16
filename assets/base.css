@@ -3813,7 +3813,9 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 }
 
 @media screen and (max-width: 750px){
- 
+  #shopify-section-template--24019639206194__multicolumn_Hp9bGH .multicolumn-list{
+    padding: 5rem 5rem !important;
+  }
 }
 
 /*MAS PEQUEÑO, CONDENSADO
