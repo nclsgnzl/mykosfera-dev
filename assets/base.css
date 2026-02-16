@@ -3812,6 +3812,12 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
   }
 }
 
+@media screen and (max-width: 750px){
+  .slider-mobile-gutter #Slider-template--24019639206194__multicolumn_Hp9bGH{
+    padding: 0 5rem !important;
+  }
+}
+
 /*MAS PEQUEÑO, CONDENSADO
 slider-component.page-width {
   width: 80% !important;
