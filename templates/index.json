@@ -167,6 +167,108 @@
         "accessibility_info": "Presentación de diapositivas sobre tu marca"
       }
     },
+    "rich_text_Vhxxxd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_nx7VQL": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Explora los beneficios</strong>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nx7VQL"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-09b5a1ae-7318-4b59-85a3-a723e453e077",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "multicolumn_Hp9bGH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mMenKm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
+            "title": "Energía",
+            "text": "",
+            "link_label": "a",
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Energ%C3%ADa&sort_by=title-ascending"
+          }
+        },
+        "column_pX7EGh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
+            "title": "Enfoque",
+            "text": "",
+            "link_label": "a",
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Enfoque&sort_by=title-ascending"
+          }
+        },
+        "column_Tbcenb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
+            "title": "Calma",
+            "text": "",
+            "link_label": "a",
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Calma&sort_by=title-ascending"
+          }
+        },
+        "column_x3atbg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
+            "title": "Inmunidad",
+            "text": "",
+            "link_label": "a",
+            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Inmunidad&sort_by=title-ascending"
+          }
+        }
+      },
+      "block_order": [
+        "column_mMenKm",
+        "column_pX7EGh",
+        "column_Tbcenb",
+        "column_x3atbg"
+      ],
+      "custom_css": [
+        ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
+        ".multicolumn {--page-width: 100%; background: transparent;}",
+        "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
+        ".page-width {width: 100%; padding-inline: 0;}",
+        ".multicolumn-list {padding: 0 5rem !important;}",
+        ".multicolumn-card__info {position: absolute; inset: 0; z-index: 5; opacity: 0;}"
+      ],
+      "name": "Beneficios",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_jpTQJa": {
       "type": "featured-collection",
       "custom_css": [
@@ -632,111 +734,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_Vhxxxd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_nx7VQL": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Explora los beneficios</strong>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nx7VQL"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-09b5a1ae-7318-4b59-85a3-a723e453e077",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 20
-      }
-    },
-    "multicolumn_Hp9bGH": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_mMenKm": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
-            "title": "Energía",
-            "text": "",
-            "link_label": "a",
-            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Energ%C3%ADa&sort_by=title-ascending"
-          }
-        },
-        "column_pX7EGh": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
-            "title": "Enfoque",
-            "text": "",
-            "link_label": "a",
-            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Enfoque&sort_by=title-ascending"
-          }
-        },
-        "column_Tbcenb": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
-            "title": "Calma",
-            "text": "",
-            "link_label": "a",
-            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Calma&sort_by=title-ascending"
-          }
-        },
-        "column_x3atbg": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/ICONOS_-_MYKOSFERA_-_WEB-04.png",
-            "title": "Inmunidad",
-            "text": "",
-            "link_label": "a",
-            "link": "https://mykosfera.cl/collections/all?filter.p.m.custom.beneficio=Inmunidad&sort_by=title-ascending"
-          }
-        }
-      },
-      "block_order": [
-        "column_mMenKm",
-        "column_pX7EGh",
-        "column_Tbcenb",
-        "column_x3atbg"
-      ],
-      "custom_css": [
-        ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
-        ".multicolumn {--page-width: 100%; background: transparent;}",
-        "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
-        ".page-width {width: 100%; padding-inline: 0;}",
-        ".multicolumn-list {padding: 0 5rem !important;}",
-        ".multicolumn-card__info {position: absolute; inset: 0; z-index: 5; opacity: 0;}"
-      ],
-      "name": "Beneficios",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 12,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "slider-banner",
     "slideshow_3crP6D",
+    "rich_text_Vhxxxd",
+    "multicolumn_Hp9bGH",
     "featured_collection_jpTQJa",
     "rich_text_TFpPhY",
     "rich_text_yWcJTc",
@@ -749,8 +753,6 @@
     "section-nosotros",
     "featured_blog_jhJe8X",
     "collapsible_content_BaPTEx",
-    "collection_list_nDt4TA",
-    "rich_text_Vhxxxd",
-    "multicolumn_Hp9bGH"
+    "collection_list_nDt4TA"
   ]
 }
