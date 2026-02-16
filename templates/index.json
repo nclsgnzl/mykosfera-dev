@@ -639,15 +639,14 @@
         "heading_nx7VQL": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Atiende tu necesidad</strong>",
-            "heading_size": "h1"
+            "heading": "<strong>Explora los beneficios</strong>",
+            "heading_size": "h2"
           }
         }
       },
       "block_order": [
         "heading_nx7VQL"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -708,7 +707,6 @@
         "column_Tbcenb",
         "column_x3atbg"
       ],
-      "disabled": true,
       "custom_css": [
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
         ".multicolumn {--page-width: 100%; background: transparent;}",
