@@ -3807,7 +3807,7 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 }
 
 @media screen and (min-width: 990px) {
-  .title-wrapper-with-link, .slider-mobile-gutter {
+  .title-wrapper-with-link, .slider-mobile-gutter, .blog .page-width-desktop .slider-mobile-gutter {
     padding: 0 0 !important;
   }
 }
