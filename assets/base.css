@@ -3697,7 +3697,7 @@ h3.h5 {
   font-weight: 500;
 }
 
-/*PRECIOS
+/*PRECIOS HOME Y TIENDA
 -----------*/
 .card-information .price, .price .price__container{
   color:  #542349 !important;
@@ -3774,7 +3774,7 @@ h3.h5 {
 }
 
 /*-----------------
-RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
+RESOLUCION AJUSTADA PARA ESCRITORIO*/
 @media screen and (min-width: 1300px){
   .card,.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .element .about-us-info{
     max-width: 80% !important;
@@ -3796,6 +3796,7 @@ RESOLUCION MAS PEQUEÑA EN ESCRITORIO*/
   }
 }
 
+/*RESOLUCION AJUSTADA PARA TABLET*/
 @media screen and (min-width: 750px) {
   .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter.scroll-trigger, .collection .page-width-desktop, .element .about-us-info {
     padding: 0 5rem !important;
