@@ -3829,4 +3829,5 @@ slider-component.page-width {
   max-width: 70% !important;
   width: 70% !important;
   margin: auto !important;
+  content: wrap !important;
 }
