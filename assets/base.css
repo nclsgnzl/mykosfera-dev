@@ -3813,7 +3813,7 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 }
 
 @media screen and (max-width: 750px){
-  .slider-mobile-gutter #Slider-template--24019639206194__multicolumn_Hp9bGH{
+  #shopify-section-template--24019639206194__multicolumn_Hp9bGH .multicolumn-list{
     padding: 0 5rem !important;
   }
 }
