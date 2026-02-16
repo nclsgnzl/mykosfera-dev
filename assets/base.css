@@ -3797,15 +3797,12 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 }
 
 /*RESOLUCION AJUSTADA PARA TABLET*/
-@media screen and (min-width: 750px) {
-  .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter.scroll-trigger, .collection .page-width-desktop, .element .about-us-info {
-    padding: 0 5rem !important;
-  }
-  .element .about-us-info{
-    text-align: left;
+
+@media screen and (min-width: 1300px){
+  .slider-mobile-gutter.scroll-trigger{
+    padding: 0 0 !important;
   }
 }
-
 @media screen and (min-width: 990px) {
   .title-wrapper-with-link, .slider-mobile-gutter.scroll-trigger {
     padding: 0 0 !important;
@@ -3815,6 +3812,15 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 @media screen and (max-width: 750px){
   #shopify-section-template--24019639206194__multicolumn_Hp9bGH .multicolumn-list{
     padding: 5rem 5rem !important;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter.scroll-trigger, .collection .page-width-desktop, .element .about-us-info {
+    padding: 0 5rem !important;
+  }
+  .element .about-us-info{
+    text-align: left;
   }
 }
 
