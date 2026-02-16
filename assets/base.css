@@ -3828,5 +3828,5 @@ slider-component.page-width {
 .shopify-section.section:not(#shopify-section-template--24019639435570__custom-title-page){
   max-width: 80% !important;
   width:80% !important;
-  align-content: center !important;
+  text-align: center !important;
 }
