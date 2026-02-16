@@ -649,9 +649,9 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-09b5a1ae-7318-4b59-85a3-a723e453e077",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 20
