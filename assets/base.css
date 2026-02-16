@@ -3826,7 +3826,7 @@ slider-component.page-width {
 }*/
 
 .shopify-section.section:not(#shopify-section-template--24019639435570__custom-title-page){
-  max-width: 80% !important;
-  width:80% !important;
+  max-width: 60% !important;
+  width: 60% !important;
   margin: auto !important;
 }
