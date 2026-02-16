@@ -3807,9 +3807,13 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 }
 
 @media screen and (min-width: 990px) {
-  .title-wrapper-with-link, .slider-mobile-gutter {
+  .title-wrapper-with-link, .slider-mobile-gutter.scroll-trigger {
     padding: 0 0 !important;
   }
+}
+
+@media screen and (max-width: 750px){
+ 
 }
 
 /*MAS PEQUEÑO, CONDENSADO
