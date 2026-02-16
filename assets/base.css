@@ -3798,7 +3798,7 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 
 /*RESOLUCION AJUSTADA PARA TABLET*/
 @media screen and (min-width: 750px) {
-  .title-wrapper--self-padded-tablet-down, .collection .page-width-desktop, .element .about-us-info {
+  .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter.scroll-trigger, .collection .page-width-desktop, .element .about-us-info {
     padding: 0 5rem !important;
   }
   .element .about-us-info{
@@ -3807,7 +3807,7 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
 }
 
 @media screen and (min-width: 990px) {
-  .title-wrapper-with-link, .slider-mobile-gutter {
+  .title-wrapper-with-link, .slider-mobile-gutter.scroll-trigger {
     padding: 0 0 !important;
   }
 }
