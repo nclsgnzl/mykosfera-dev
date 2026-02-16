@@ -3776,7 +3776,7 @@ h3.h5 {
 /*-----------------
 RESOLUCION AJUSTADA PARA ESCRITORIO*/
 @media screen and (min-width: 1300px){
-  .card:not(.article-card),.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .element .about-us-info{
+  .card:not(.article-card),.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .element .about-us-info,.main-page-title{
     max-width: 70% !important;
     max-height: 70% !important;
     width:70% !important;
