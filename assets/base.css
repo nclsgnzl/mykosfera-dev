@@ -3699,7 +3699,7 @@ h3.h5 {
 .collection__description, .rich-text, .card__information .h5 a{
   color: #282828;
   font-weight: 500;
-  align-self: left;
+  text-align: left;
 }
 
 /*PRECIOS HOME Y TIENDA
