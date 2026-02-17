@@ -3786,7 +3786,9 @@ h3.h5 {
   .small-hide {
       display: none !important;
   }
-  
+      .scroll-trigger{
+        opacity: .01  !important;
+      }
 }
 
 /*
