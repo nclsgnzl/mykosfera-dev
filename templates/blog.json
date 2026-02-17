@@ -11,7 +11,9 @@
   "sections": {
     "main": {
       "type": "main-blog",
-      "custom_css": [],
+      "custom_css": [
+        "h1 {color: #542349;}"
+      ],
       "settings": {
         "layout": "grid",
         "show_image": true,
