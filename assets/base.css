@@ -3772,6 +3772,13 @@ h3.h5 {
 .multicolumn, .blog{
   background-color: #eeeeee !important;
 }
+
+/*ajuste filtros tienda*/
+.facet-filters{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 /*
 -----------------
 RESOLUCION AJUSTADA PARA ESCRITORIO
