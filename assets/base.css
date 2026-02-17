@@ -3802,7 +3802,7 @@ RESOLUCION AJUSTADA PARA TABLET
     padding: 0 5rem !important;
   }*/
   .element .about-us-info{
-    text-align: left;
+    text-align: left !important;
   }
 }
 /*
