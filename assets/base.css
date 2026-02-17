@@ -3807,6 +3807,7 @@ h3.h5 {
 
   .facets-wrapper{
     padding: 0 6rem !important;
+    content: fill !important;
   }
 }
 
