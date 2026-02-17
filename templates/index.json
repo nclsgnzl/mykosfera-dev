@@ -273,7 +273,6 @@
       "type": "featured-collection",
       "custom_css": [
         ".collection__title.title-wrapper {margin-bottom: 0 !important;}",
-        ".card-wrapper .card .card__content .card__information {padding-top: 0 !important;}",
         ".collection__view-all a:not(.link) {margin-top: 0 !important;}"
       ],
       "settings": {
