@@ -3774,8 +3774,11 @@ h3.h5 {
 }
 
 /*ajuste filtros tienda*/
-.facet-filters{
-  padding: 0 0 !important;
+@media screen and (min-width: 750px) and (max-width: 1500px){
+  .facets__form{
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
 }
 
 /*
