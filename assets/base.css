@@ -3772,9 +3772,9 @@ h3.h5 {
 .multicolumn, .blog{
   background-color: #eeeeee !important;
 }
-
-/*-----------------
-RESOLUCION AJUSTADA PARA ESCRITORIO*/
+/*
+-----------------
+RESOLUCION AJUSTADA PARA ESCRITORIO
 @media screen and (min-width: 1300px){
   .card:not(.article-card),.collection__title,.multicolumn .page-width, .rich-text__wrapper, .page-width-desktop, .element .about-us-info{
     max-width: 70% !important;
@@ -3796,7 +3796,7 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
   }
 }
 
-/*RESOLUCION AJUSTADA PARA TABLET*/
+/*RESOLUCION AJUSTADA PARA TABLET
 @media screen and (min-width: 750px) {
   .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter.scroll-trigger, .collection .page-width-desktop, .element .about-us-info {
     padding: 0 5rem !important;
@@ -3818,18 +3818,18 @@ RESOLUCION AJUSTADA PARA ESCRITORIO*/
   }
 }
 
-/*MAS PEQUEÑO, CONDENSADO
+MAS PEQUEÑO, CONDENSADO
 slider-component.page-width {
   width: 80% !important;
   height: 80% !important;
   justify-items: center !important;
 }*/
 
-/*
+
 .shopify-section.section:not(#shopify-section-template--24019639435570__custom-title-page,#shopify-section-template--24019639206194__slideshow_3crP6D),facets-wrapper{
   max-width: 70% !important;
   width: 70% !important;
   margin: auto !important;
   content: wrap !important;
 }
-  */
+  
