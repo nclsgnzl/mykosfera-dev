@@ -3696,7 +3696,7 @@ h3.h5 {
 
 /*TEXTO SECUNDARIO HOME
 ------------*/
-.collection__description, .rich-text, .card__information .h3{
+.collection__description, .rich-text, .card__information .h5 a{
   color: #282828;
   font-weight: 500;
 }
