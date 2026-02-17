@@ -3779,6 +3779,9 @@ h3.h5 {
     display: flex !important;
     flex-wrap: wrap !important;
   }
+  .facet-filters{
+    padding-left: 0 !important;
+  }
 }
 
 /*
