@@ -3782,6 +3782,9 @@ h3.h5 {
   .facet-filters{
     padding-left: 0 !important;
   }
+  .product-count{
+    margin-right: 0 !important;
+  }
 }
 
 /*
