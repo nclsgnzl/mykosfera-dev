@@ -3783,7 +3783,7 @@ h3.h5 {
     padding-left: 0 !important;
   }
   .product-count{
-    margin-right: 0 !important;
+    margin-block-end: 0 !important;
   }
 }
 
