@@ -3805,8 +3805,8 @@ h3.h5 {
     display: flex !important;
   }
 
-  .facets-container{
-    padding: 0 5rem !important;
+  .facets-wrapper{
+    padding: 0 6rem !important;
   }
 }
 
