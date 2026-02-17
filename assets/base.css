@@ -3786,10 +3786,7 @@ h3.h5 {
   .small-hide {
       display: none !important;
   }
-  .mobile-facets__wrapper {
-    margin-left: 0;
-    display: flex;
-}
+  
 }
 
 /*
