@@ -253,7 +253,8 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 989px) {
+/*BOTON CARRITO MOBILE*/
+@media screen and (max-width: 1350px) {
   .quick-add__submit {
     background-image: url('https://cdn.shopify.com/s/files/1/0920/5147/2690/files/cart-arrow-down-solid-light.svg?v=1770092519');
     background-color: #542349;
