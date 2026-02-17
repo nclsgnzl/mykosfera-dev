@@ -9,10 +9,38 @@
  */
 {
   "sections": {
+    "rich_text_MzqRzP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FbUFDr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Información de Hongos",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FbUFDr"
+      ],
+      "custom_css": [
+        ".h1 {color: #542349;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-cade0fb8-4a3e-4188-b2db-a748185e8029",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
-        "h1 {color: #79426a;}"
+        "h1 {color: #79426a; margin: 0 0 !important; padding-left: 0;}"
       ],
       "settings": {
         "padding_top": 28,
@@ -389,6 +417,7 @@
     }
   },
   "order": [
+    "rich_text_MzqRzP",
     "main",
     "collapsible_content_xttcKT",
     "collapsible_content_3Fewjm",
