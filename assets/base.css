@@ -3775,13 +3775,14 @@ h3.h5 {
 
 /*ajuste filtros tienda*/
 @media screen and (min-width: 750px) and (max-width: 1500px){
-  .facets__form, .product-count{
+  .facets__form{
     display: flex !important;
     flex-wrap: wrap !important;
   }
   .facet-filters{
     padding-left: 0 !important;
   }
+  
 }
 
 /*
