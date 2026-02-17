@@ -3772,7 +3772,7 @@ h3.h5 {
 .multicolumn, .blog{
   background-color: #eeeeee !important;
 }
-/*
+
 -----------------
 RESOLUCION AJUSTADA PARA ESCRITORIO
 @media screen and (min-width: 1300px){
@@ -3796,7 +3796,7 @@ RESOLUCION AJUSTADA PARA ESCRITORIO
   }
 }
 
-/*RESOLUCION AJUSTADA PARA TABLET
+RESOLUCION AJUSTADA PARA TABLET
 @media screen and (min-width: 750px) {
   .title-wrapper--self-padded-tablet-down, .slider-mobile-gutter.scroll-trigger, .collection .page-width-desktop, .element .about-us-info {
     padding: 0 5rem !important;
