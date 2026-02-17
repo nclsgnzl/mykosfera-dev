@@ -3702,6 +3702,11 @@ h3.h5 {
   text-align: left;
 }
 
+/*TITULO INFO HONGOS*/
+.collapsible-content__heading{
+  font-size: calc(var(--font-heading-scale) * 2rem);
+}
+
 /*PRECIOS HOME Y TIENDA
 -----------*/
 .card-information .price, .price .price__container{
