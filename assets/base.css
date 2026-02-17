@@ -3785,8 +3785,9 @@ h3.h5 {
   background-color: #eeeeee !important;
 }
 
-@media screen and (min-width: 1300px){
+/*ESCALA REDUCIDA AL 70%*/
 
+@media screen and (min-width: 1300px){
   .shopify-section:not(#shopify-section-template--24019639435570__custom-title-page,
   #shopify-section-template--24019639206194__slideshow_3crP6D,
   #shopify-section-template--24019639206194__section-nosotros,
@@ -3800,7 +3801,7 @@ h3.h5 {
   }
 }
 
-/*ajuste filtros tienda*/
+/*AJUSTE FILTROS TIENDA*/
 @media screen and (min-width: 750px) and (max-width: 1500px){
   .facets__form{
     display: flex !important;
