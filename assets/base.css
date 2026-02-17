@@ -3826,7 +3826,12 @@ slider-component.page-width {
 }*/
 
 
-.shopify-section:not(#shopify-section-template--24019639435570__custom-title-page,#shopify-section-template--24019639206194__slideshow_3crP6D,#shopify-section-template--24019639206194__section-nosotros,#shopify-section-sections--24019638944050__footer),facets-wrapper{
+.shopify-section:not(#shopify-section-template--24019639435570__custom-title-page,
+#shopify-section-template--24019639206194__slideshow_3crP6D,
+#shopify-section-template--24019639206194__section-nosotros,
+#shopify-section-sections--24019638944050__footer,
+.announcement-bar-section,
+.section-header),facets-wrapper{
   max-width: 70% !important;
   width: 70% !important;
   margin: auto !important;
