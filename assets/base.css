@@ -3774,7 +3774,7 @@ h3.h5 {
 }
 
 /*ajuste filtros tienda*/
-.facet-filters{
+.facets{
   display: flex;
   flex-wrap: wrap;
 }
