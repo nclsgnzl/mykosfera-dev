@@ -3678,8 +3678,9 @@ h1,h2,h3,h4,h5,
   font-weight: 500 !important;
 }
 
-/*TITULO TARJETA
--------------------*/
+/*TARJETA
+-------------------
+TITULO*/
 .card__information .card__heading{
   font-weight: 500 !important;
 }
@@ -3687,6 +3688,9 @@ h1,h2,h3,h4,h5,
 h3.h5 {
   font-family: BlissPro !important;
   font-weight: 500;
+}
+.card-wrapper .card .card__content .card__information {
+  padding-top: 0 !important;
 }
 
 
