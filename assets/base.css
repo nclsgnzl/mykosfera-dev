@@ -3784,11 +3784,15 @@ h3.h5 {
   }
   
   .small-hide {
-      display: none !important;
+    display: none !important;
   }
   .medium-hide {
-        display: flex !important;
-    }
+    display: flex !important;
+  }
+
+  .product-count{
+    margin-right: 0px !important;
+  }
 }
 
 /*
