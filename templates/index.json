@@ -396,12 +396,24 @@
             "link_label": "Extractos",
             "link": "https://mykosfera.cl/collections/all?filter.p.product_type=Extractos&sort_by=title-ascending"
           }
+        },
+        "column_N9ChnM": {
+          "type": "column",
+          "name": "Otros productos",
+          "settings": {
+            "image": "shopify://shop_images/PelucheGrandeChangleFinal.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Otros productos",
+            "link": "https://mykosfera.cl/collections/all?filter.p.product_type=Otros+productos&sort_by=title-ascending"
+          }
         }
       },
       "block_order": [
         "column_bxDbfr",
         "column_bQYczt",
-        "column_gfdrGU"
+        "column_gfdrGU",
+        "column_N9ChnM"
       ],
       "custom_css": [
         ".multicolumn-card__image-wrapper {margin-block-start: 0; position: relative;}",
@@ -417,13 +429,13 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 36
