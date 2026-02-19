@@ -3792,8 +3792,10 @@ h3.h5 {
   #shopify-section-template--24019639206194__slideshow_3crP6D,
   #shopify-section-template--24019639206194__section-nosotros,
   #shopify-section-sections--24019638944050__footer,
+  #shopify-section-template--24019639206194__rich_text_Vhxxxd,
+  #shopify-section-template--24019639206194__multicolumn_Hp9bGH
   .announcement-bar-section,
-  .section-header),facets-wrapper{
+  .section-header),facets-wrapper,#section-template--24019639206194__multicolumn_Hp9bGH-padding isolate sc{
     max-width: 70% !important;
     width: 70% !important;
     margin: auto !important;
