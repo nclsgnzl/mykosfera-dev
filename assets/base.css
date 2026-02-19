@@ -3781,8 +3781,8 @@ h3.h5 {
 }
 
 /*FONDO SOLIDO */
-.multicolumn, .blog{
-  background-color: #eeeeee !important;
+.multicolumn, .blog, #shopify-section-template--24019639206194__rich_text_Vhxxxd,#shopify-section-template--24019639206194__multicolumn_Hp9bGH{
+  background-color: #efefef !important;
 }
 
 /*ESCALA REDUCIDA AL 70%*/
