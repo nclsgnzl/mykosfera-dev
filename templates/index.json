@@ -185,7 +185,7 @@
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "scheme-09b5a1ae-7318-4b59-85a3-a723e453e077",
+        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 20
@@ -243,12 +243,12 @@
       ],
       "custom_css": [
         ".grid {--grid-desktop-horizontal-spacing: 0px !important; --grid-mobile-horizontal-spacing: 0px !important; --grid-mobile-vertical-spacing: 0px !important;}",
-        ".multicolumn {--page-width: 100%; background: transparent;}",
+        ".multicolumn {--page-width: 100%;}",
         "img {width: 100%; height: 100%; object-fit: cover; display: block;}",
-        ".page-width {width: 100%; padding-inline: 0;}",
+        ".page-width {width: 100%; padding-inline: 0; background-color: #eeeeee !important;}",
         ".multicolumn-list {padding: 0 5rem !important;}",
         ".multicolumn-card__info {position: absolute; inset: 0; z-index: 5; opacity: 0;}",
-        "a{margin:0;}"
+        "a {margin: 0;}"
       ],
       "name": "Beneficios",
       "settings": {
