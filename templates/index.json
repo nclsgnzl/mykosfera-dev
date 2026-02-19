@@ -173,8 +173,8 @@
         "heading_nx7VQL": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Explora los beneficios</strong>",
-            "heading_size": "h2"
+            "heading": "<strong>Explora nuestros productos por sus beneficios</strong>",
+            "heading_size": "h1"
           }
         }
       },
@@ -183,9 +183,9 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-cade0fb8-4a3e-4188-b2db-a748185e8029",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 20
