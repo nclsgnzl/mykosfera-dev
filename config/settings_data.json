@@ -155,7 +155,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#eeeeee",
+          "background": "#efefef",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
@@ -221,7 +221,7 @@
       },
       "scheme-9c818bfa-8d42-4538-8992-484bdc14ee77": {
         "settings": {
-          "background": "#eeeeee",
+          "background": "#efefef",
           "background_gradient": "",
           "text": "#282828",
           "button": "#542349",
@@ -232,7 +232,7 @@
       },
       "scheme-e7e7aef6-fdcc-408b-965d-ee6aea161d00": {
         "settings": {
-          "background": "#eeeeee",
+          "background": "#efefef",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#121212",
@@ -243,7 +243,7 @@
       },
       "scheme-cade0fb8-4a3e-4188-b2db-a748185e8029": {
         "settings": {
-          "background": "#eeeeee",
+          "background": "#efefef",
           "background_gradient": "",
           "text": "#79426a",
           "button": "#79426a",
