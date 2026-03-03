@@ -96,9 +96,9 @@
             "button_label": "Saber más",
             "link": "shopify://pages/contact",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "middle-center",
             "show_text_box": false,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "image_overlay_opacity": 40,
             "color_scheme": "scheme-81369892-c92a-4fa5-ac93-f60891fa27ef",
             "text_alignment_mobile": "center"
