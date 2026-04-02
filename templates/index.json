@@ -107,16 +107,16 @@
         "slide_XU3XtH": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FOTO-WEB-3_90e3a5ba-02d3-4765-9a16-59455a38431c.jpg",
-            "heading": "Producción 100% regional",
+            "image": "shopify://shop_images/Bannersweb-melena.png",
+            "heading": "Aumenta tu concentración con Melena de León",
             "heading_size": "h1",
-            "subheading": "De la tierra a la tierra",
+            "subheading": "Producción local",
             "button_label": "Conócenos",
             "link": "shopify://pages/quienes-somos",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "middle-center",
             "show_text_box": false,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "image_overlay_opacity": 40,
             "color_scheme": "scheme-81369892-c92a-4fa5-ac93-f60891fa27ef",
             "text_alignment_mobile": "center"
@@ -125,16 +125,16 @@
         "slide_6NqNLh": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/FOTO-WEB-2_3300e1b8-0020-4d35-8a08-981bc84253d8.jpg",
+            "image": "shopify://shop_images/Bannerswweb-circularidad1.png",
             "heading": "Somos una empresa circular y autosuficiente",
             "heading_size": "h1",
-            "subheading": "Subproductos para tu bienestar",
+            "subheading": "De la tierra a la tierra",
             "button_label": "Saber más",
             "link": "shopify://pages/quienes-somos",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "middle-center",
             "show_text_box": true,
-            "text_alignment": "left",
+            "text_alignment": "center",
             "image_overlay_opacity": 40,
             "color_scheme": "scheme-81369892-c92a-4fa5-ac93-f60891fa27ef",
             "text_alignment_mobile": "center"
