@@ -24,6 +24,7 @@
         },
         "announcement_9wR4Hd": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "15% OFF en Cordyceps M. y Melena de León  usando el código: ENERGIAYFOCO",
             "link": ""
