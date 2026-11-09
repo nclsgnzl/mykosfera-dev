@@ -483,5 +483,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "@media screen and (max-width: 749px) {.wsp-icon {width: 46px !important; height: 46px !important; bottom: 16px !important; right: 12px !important; padding: 0 !important; display: flex !important; align-items: center; justify-content: center; } .wsp-icon svg {position: static !important; width: 26px !important; }}"
+    ]
   }
 }
