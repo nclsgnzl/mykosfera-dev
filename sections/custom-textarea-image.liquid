@@ -12,7 +12,8 @@
     color: white;
   }
 
-  .element h1 {
+  .element h1,
+.element h2.text-title {
     color: white;
     margin-top: 10px;
   }
@@ -56,7 +57,11 @@
       class="img-nosotros"
     >
       
-    <h1 class="text-title">{{ section.settings.title_page }}</h1>
+    {%- if request.page_type == 'index' -%}
+  <h2 class="text-title h1">{{ section.settings.title_page }}</h2>
+{%- else -%}
+  <h1 class="text-title">{{ section.settings.title_page }}</h1>
+{%- endif -%}
     <div style="width: 50%" class="text-nosotros">
       <p>{{ section.settings.description_paragraph }}</p>
     </div>
