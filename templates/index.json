@@ -275,12 +275,12 @@
         ".collection__view-all a:not(.link) {margin-top: 0 !important;}"
       ],
       "settings": {
-        "title": "<strong>Destacados del Mundo Fungi</strong>",
+        "title": "<strong>Destacados del Reino Fungi</strong>",
         "heading_size": "h2",
-        "description": "<p>Nuestra selección de productos parta los amantes del Mundo Fungi</p>",
+        "description": "<p>Nuestra selección de productos parta los amantes del Reino Fungi</p>",
         "show_description": true,
         "description_style": "body",
-        "collection": "mundo-fungi",
+        "collection": "frontpage",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
